@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="-c &quot;cd /Users/suohyoon/Documents/java_grammer &amp;&amp; git add . &amp;&amp; git commit -m \&quot;Auto commit by $(git config user.name)\&quot; &amp;&amp; git push origin master&quot;" />
+      <option name="arguments" value="-c &quot;cd /Users/suohyoon/Documents/java_grammer &amp;&amp; git add . &amp;&amp; git commit -m \&quot;자동 커밋됨\&quot; &amp;&amp; git push origin master&quot;" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
