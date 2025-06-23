@@ -6,7 +6,7 @@ public class C06AbstractMain {
     }
 }
 
-
+// 추상메서드가 하나라도 있으면 반드시 클래스에도 abstract 키워드를 붙이고
 abstract class AbstractAnimal{
     void makeSound(){
         System.out.println("동물은 소리를 냅니다.");
