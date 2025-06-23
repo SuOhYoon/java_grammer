@@ -8,6 +8,7 @@ public class C03Inheritance extends Parents {
 //        자식클래스에서 부모클래스의 a변수 상속
         System.out.println(c1.a);
         System.out.println(c1.b);
+        System.out.println(c1.c);
     }
 }
 
