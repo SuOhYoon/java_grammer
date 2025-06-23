@@ -8,7 +8,7 @@ public class C04InterfaceMain {
         C01Dog d1 = new C01Dog();
         d1.makeSound();
 
-//
+//        다형성 : 하나의 부모타입으로 여러 자식객체를 다룰 수 있음.
         C04AnimalInterface1 c2 = new C01Cat();
         c1.makeSound();
 
