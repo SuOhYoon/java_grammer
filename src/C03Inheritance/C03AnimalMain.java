@@ -17,7 +17,10 @@ class Animal{
 }
 
 class Dog extends Animal{
-
+    @Override
+    void sound() {
+        super.sound();
+    }
 }
 
 class Cat extends Animal{
