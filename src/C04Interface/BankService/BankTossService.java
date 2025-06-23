@@ -1,4 +1,4 @@
 package C04Interface.BankService;
 
-public class BankTossService {
+public class BankTossService implements {
 }
