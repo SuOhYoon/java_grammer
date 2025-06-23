@@ -1,5 +1,9 @@
 package C04Interface;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class C04InterfaceMain {
     public static void main(String[] args) {
         C01Cat c1 = new C01Cat();
@@ -16,5 +20,6 @@ public class C04InterfaceMain {
         d1.makeSound();
     }
 //    예시
-    
+    List<Integer> list1 = new ArrayList<>();
+    List<Integer> list2 = new LinkedList<>();
 }
