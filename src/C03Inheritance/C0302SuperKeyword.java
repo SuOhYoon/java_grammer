@@ -5,7 +5,7 @@ public class C0302SuperKeyword extends SuperParents{
     int a = 10;
 
     C0302SuperKeyword(){
-        
+//        super() : 부모클래스의 생성자를 호출하는 메서드
     }
     public static void main(String[] args) {
         C0302SuperKeyword c2 = new C0302SuperKeyword();
