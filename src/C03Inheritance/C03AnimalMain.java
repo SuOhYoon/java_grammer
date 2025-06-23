@@ -7,7 +7,9 @@ public class C03AnimalMain {
 }
 
 class Animal{
-    void sound("동물이 소리를 냅니다");
+    void sound(){
+        System.out.println("동물이 소리를 냅니다");
+    }
 }
 
 class Dog extends Animal{
