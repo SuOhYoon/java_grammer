@@ -26,6 +26,7 @@ public class BankController {
                 } else {
                     bs = new BankTossService();
                     bs.deposit(money, ba);
+                    System.out.println("입금이 완료되었습니다.");
                 }
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
