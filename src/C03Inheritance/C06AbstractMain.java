@@ -7,5 +7,9 @@ public class C06AbstractMain {
 }
 
 class AbstractAnimal{
-    
+
+}
+
+class AbstractAnimal{
+
 }
