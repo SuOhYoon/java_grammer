@@ -9,7 +9,7 @@ public class C03Inheritance extends Parents {
         System.out.println(c1.a);
         System.out.println(c1.b);
 //        System.out.println(c1.c);
- 
+
         c1.m1();
     }
 }
@@ -20,6 +20,10 @@ class Parents {
     private int c = 20;
 
     public void m1(){
+        System.out.println("부모 클래스 입니다.");
+    }
+
+    public void m2(){
         System.out.println("부모 클래스 입니다.");
     }
 }
