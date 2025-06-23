@@ -4,6 +4,9 @@ public class C01InnerClass {
     public static void main(String[] args) {
         MemberInnerClass m1 = new MemberInnerClass();
         System.out.println(m1.getA());
+
+        MemberInnerClass.StaticInnerClass ms1 = new MemberInnerClass.StaticInnerClass();
+        ms1.display();
     }
 }
 
