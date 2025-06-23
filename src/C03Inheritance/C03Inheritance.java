@@ -13,7 +13,7 @@ public class C03Inheritance extends Parents {
 
 class Parents {
     public int a = 20;
-// private 접근제어자는 클래수 내부에서만 접근가능
+// private 접근제어자는 클래수 내부에서만 접근가. 자식 클래스에서도 접근 불가
     private int c = 20;
 
     public void m1(){
