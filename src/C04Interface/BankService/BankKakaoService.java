@@ -3,7 +3,7 @@ package C04Interface.BankService;
 public class BankKakaoService implements BankService{
     @Override
     public void deposit(long money, BankAccount ba) {
-        
+
     }
 
     @Override
