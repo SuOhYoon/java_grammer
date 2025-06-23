@@ -22,6 +22,8 @@ public class BankController {
                 if(bank.equals("1")){
                     bs = new BankKakaoService();
                     bs.deposit(money, ba);
+                } else {
+                    
                 }
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
