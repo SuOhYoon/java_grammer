@@ -3,6 +3,7 @@ package C04Interface;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class C04InterfaceMain {
     public static void main(String[] args) {
@@ -30,6 +31,6 @@ public class C04InterfaceMain {
 
 //        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
         List<Integer> list = new LinkedList<>();
-        Queue<Integr> queue = new LinkedList<>()
+        Queue<Integer> queue = new LinkedList<>();
      }
 }
