@@ -28,7 +28,7 @@ public class BankController {
             } else {
                 System.out.println("출금하실 금액을 입력해주세요");
                 long money  = Long.parseLong(sc.nextLine());
-                bs.deposit(money, ba);
+                bs.withdraw(money, ba);
             }
         }
     }
