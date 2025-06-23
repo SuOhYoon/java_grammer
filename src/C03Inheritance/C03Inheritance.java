@@ -15,7 +15,7 @@ public class C03Inheritance extends Parents {
     }
 
 //    부모 메서드와 재정의(overriding) : 부모 클래스의 메서드명과 자식클래스의 메서드명이 동일한 상황
-    @Override //override된 메서드임을 명시적으로 표현하는 표현식.(어노테이션)
+    @Override //override된 메서드임을 명시적으로 표현하는 표현식.(어노테이션) 성능 최적화를 위해서 해당 키워드 붙이는거 권장
     public void m1(){
         System.out.println("자식 클래스 입니다.");
     }
@@ -32,5 +32,6 @@ class Parents {
 
     public void m1(){
         System.out.println("부모 클래스 입니다.");
+        System.out.println(c);
     }
 }
