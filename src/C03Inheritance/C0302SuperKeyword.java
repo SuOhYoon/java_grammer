@@ -10,7 +10,7 @@ public class C0302SuperKeyword {
 
     public void display(){
         System.out.println("자식의 변수 : " + a);
-        System.out.println("자식의 변수 : " + a);
+        System.out.println("부모의 변수 : " + super.a);
     }
 }
 
