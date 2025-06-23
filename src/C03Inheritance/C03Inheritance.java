@@ -13,6 +13,7 @@ public class C03Inheritance extends Parents {
 
 class Parents {
     public int a = 20;
+
     private int c = 20;
 
     public void m1(){
