@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class C04InterfaceMain {
+public class C01InterfaceMain {
     public static void main(String[] args) {
         C01Cat c1 = new C01Cat();
         c1.makeSound();
