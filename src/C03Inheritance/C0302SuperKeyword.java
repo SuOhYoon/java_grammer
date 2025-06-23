@@ -7,5 +7,4 @@ public class C0302SuperKeyword {
 }
 
 class Parents{
-    
 }
