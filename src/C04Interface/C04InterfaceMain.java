@@ -24,6 +24,8 @@ public class C04InterfaceMain {
 //        다형성의 장점 :
         List<Integer> list1 = new ArrayList<>();
         list1.add(10);
-        list2.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
     }
 }
