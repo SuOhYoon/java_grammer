@@ -9,6 +9,7 @@ public class C03AnimalMain {
 class Animal{
 
 }
+
 class Animal{
 
 }
