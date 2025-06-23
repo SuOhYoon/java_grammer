@@ -6,7 +6,8 @@ public class C06AbstractMain {
         d1.makeSound1();
         d1.makesound2();
 
-        
+//        추상클래스는 구현체없는 메서드가 있으므로, 기본적으로 객체 생성 불가능
+//        Ab
         AbstractAnimal d2 = new AbstractDog();
         d2.makeSound1();
         d2.makeSound2();
