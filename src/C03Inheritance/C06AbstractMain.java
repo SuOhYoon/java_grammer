@@ -20,6 +20,6 @@ class AbstractDog extends AbstractAnimal{
 
     @Override
     void makesound2() {
-        
+        System.out.println("멍멍");
     }
 }
