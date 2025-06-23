@@ -12,4 +12,6 @@ class MemberInnerClass{
     MemberInnerClass(){
         this.a = 10;
     }
+
+    int getA
 }
