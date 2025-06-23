@@ -5,7 +5,7 @@ import C03Inheritance.C04ProtectedClass;
 public class ProtectedTest {
     public static void main(String[] args) {
         C04ProtectedClass p1 = new C04ProtectedClass();
-//
+//        public접근제어자는 프로젝트 전역에서 접근가능
         p1.st1 = "hello python";
 
     }
