@@ -15,9 +15,10 @@ public class C0302SuperKeyword {
 }
 
 class SuperParents{
+    int a;
     int b = 20;
 
     public SuperParents(){
-        
+
     }
 }
