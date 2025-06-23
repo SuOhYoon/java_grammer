@@ -10,6 +10,6 @@ public class C01InnerClass {
 class MemberInnerClass{
     int a;
     MemberInnerClass(){
-        
+        this.a = 10;
     }
 }
