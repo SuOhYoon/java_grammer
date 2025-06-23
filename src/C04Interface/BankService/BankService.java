@@ -19,6 +19,5 @@ public class BankService {
             ba.updateBalance(newBalance);
             return true;
         }
-//        그 금액과 money와 차감하여 updateBalance
     }
 }
