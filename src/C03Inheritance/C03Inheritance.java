@@ -1,7 +1,7 @@
 package C03Inheritance;
 
 // extends 키워드를 통해 상속을 수행 -> 부모의 변수와 메서드를 자식클래스에서 물려받는것.
-// 자바에서는 클래스의 다중상속을 지원하지 않음.
+// 자바에서는 클래스의 다중상속을 지원하지 않음. -> 어떤 클래스의 메서드를 호출하는것인지에 대한 혼선이 존재.
 public class C03Inheritance extends Parents {
     public int b = 20;
     public static void main(String[] args) {
