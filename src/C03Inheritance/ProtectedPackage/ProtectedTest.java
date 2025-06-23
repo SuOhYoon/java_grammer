@@ -11,5 +11,6 @@ public class ProtectedTest {
         p1.st1 = "hello python";
 //        패키지가 달라졌으므로 defualt변수는 접근불가
         p1.st3 = "hello python";
+        p1.st3 = "hello python";
     }
 }
