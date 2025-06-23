@@ -24,7 +24,7 @@ public class BankController {
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
                 bs.deposit(money, ba);
-                System.out.println("입금하실 금액을 입력해주세요");
+                System.out.println("입금이 완료되었습니다.");
 
             } else {
                 System.out.println("출금하실 금액을 입력해주세요");
