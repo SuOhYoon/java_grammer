@@ -18,7 +18,7 @@ public class BankController {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
-                bs.deposit(money, ba);
+                if()
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
                 System.out.println("출금하실 금액을 입력해주세요");
