@@ -24,6 +24,10 @@ class Dog extends Animal{
     void sound() {
         System.out.println("멍멍");
     }
+
+    void sound2(){
+        System.out.println("멍멍멍멍");
+    }
 }
 
 class Cat extends Animal{
