@@ -16,6 +16,6 @@ public class ProtectedTest extends C04ProtectedClass {
         p1.st4 = "hello python";
 
         C04ProtectedClass p2 = new C04ProtectedClass();
-        p2.
+        p2.st4 = "hello python";
     }
 }
