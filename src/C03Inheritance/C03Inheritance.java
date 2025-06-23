@@ -1,6 +1,6 @@
 package C03Inheritance;
 
-public class C03Inheritance {
+public class C03Inheritance extends Parents {
     public static void main(String[] args) {
 
     }
