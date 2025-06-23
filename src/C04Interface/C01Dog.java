@@ -1,4 +1,4 @@
 package C04Interface;
 
-public class C01Dog {
+public class C01Dog implements {
 }
