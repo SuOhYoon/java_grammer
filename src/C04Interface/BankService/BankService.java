@@ -15,7 +15,7 @@ public class BankService {
         if(current < money){
 
         } else {
-            long newBalance = current 
+            long newBalance = current - money;
         }
 //        그 금액과 money와 차감하여 updateBalance
         return false;
