@@ -4,5 +4,8 @@ public class BankAccount {
     private String accountNumber;
     private Long balance;
 
-    
+    public BankAccount(String accountNumber, Long balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
 }
