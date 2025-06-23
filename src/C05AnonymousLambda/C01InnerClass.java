@@ -21,7 +21,7 @@ class MemberInnerClass{
         int b = 10;
 
         void display(){
-            System.out.println();
+            System.out.println(this.b);
         }
     }
 }
