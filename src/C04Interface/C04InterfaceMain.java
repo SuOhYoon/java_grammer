@@ -23,4 +23,5 @@ public class C04InterfaceMain {
     List<Integer> list1 = new ArrayList<>();
     list1.add(10);
     List<Integer> list2 = new LinkedList<>();
+    list2.add(10);
 }
