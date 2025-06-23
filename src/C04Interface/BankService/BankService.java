@@ -13,7 +13,7 @@ public class BankService {
 //        현재 얼마있는지 조회 && 출금금액과 비교
         long current = ba.getBalance();
         if(current < money){
-
+            return false;
         } else {
             long newBalance = current - money;
         }
