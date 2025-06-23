@@ -1,5 +1,7 @@
 package C03Inheritance;
 
+import java.util.List;
+
 public class C06AbstractMain {
     public static void main(String[] args) {
         AbstractDog d1 = new AbstractDog();
@@ -15,7 +17,7 @@ public class C06AbstractMain {
         d2.makeSound2();
 
 //        모든 메서드가 abstract인 클래스를 인터페이스라 한다.
-        
+//        List<Integer> myList = new List<>();
     }
 }
 
