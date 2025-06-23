@@ -16,12 +16,12 @@ public class BankController {
             if(serviceNumber.equals("1")){
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
-                BankService bs = new BankService();
+                
                 bs.deposit(money, ba);
             } else {
                 System.out.println("출금하실 금액을 입력해주세요");
                 long money  = Long.parseLong(sc.nextLine());
-                
+
             }
         }
     }
