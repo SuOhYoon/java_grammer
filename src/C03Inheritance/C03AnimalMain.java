@@ -7,6 +7,8 @@ public class C03AnimalMain {
 
         Cat c1 = new Cat();
         c1.sound();
+
+        Animal d2 = new Dog();
     }
 }
 
