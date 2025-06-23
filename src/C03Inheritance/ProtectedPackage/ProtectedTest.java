@@ -4,7 +4,7 @@ package C03Inheritance.ProtectedPackage;
 // 다만, 패키지내의 패키지안의 class는 *로 import불가
 import C03Inheritance.C04ProtectedClass;
 
-public class ProtectedTest {
+public class ProtectedTest extends C04ProtectedClass {
     public static void main(String[] args) {
         C04ProtectedClass p1 = new C04ProtectedClass();
 //        public접근제어자는 프로젝트 전역에서 접근가능
