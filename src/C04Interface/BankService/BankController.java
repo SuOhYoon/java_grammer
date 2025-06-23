@@ -17,12 +17,8 @@ public class BankController {
             BankService bs;
             if(bank.equals("1")){
                 bs = new BankKakaoService();
-                bs.deposit(money, ba);
-                System.out.println("입금이 완료되었습니다.");
             } else {
                 bs = new BankTossService();
-                bs.deposit(money, ba);
-                System.out.println("입금이 완료되었습니다.");
             }
             if(serviceNumber.equals("1")){
 
