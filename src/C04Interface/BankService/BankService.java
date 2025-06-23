@@ -11,7 +11,9 @@ public class BankService {
 
     boolean withdraw(long money, BankAccount ba){
 //        현재 얼마있는지 조회 && 출금금액과 비교
-        
+        if(current < money){
+            
+        }
 //        그 금액과 money와 차감하여 updateBalance
         return false;
     }
