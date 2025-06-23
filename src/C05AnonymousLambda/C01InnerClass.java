@@ -18,6 +18,10 @@ class MemberInnerClass{
         return this.a;
     }
     static class StaticInnerClass{
-        
+        int b = 10;
+
+        void display(){
+            System.out.println();
+        }
     }
 }
