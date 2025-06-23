@@ -23,7 +23,8 @@ public class BankController {
                     bs = new BankKakaoService();
                     bs.deposit(money, ba);
                 } else {
-                    
+                    bs = new BankKakaoService();
+                    bs.deposit(money, ba);
                 }
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
