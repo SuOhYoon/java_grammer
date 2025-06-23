@@ -14,5 +14,8 @@ public class ProtectedTest extends C04ProtectedClass {
 //        p1.st3 = "hello python";
 //        상속관계가 있을경우, 패키지가 달라도 protected변수에 접근 가능.
         p1.st4 = "hello python";
+
+        C04ProtectedClass p2 = new C04ProtectedClass();
+        p2.
     }
 }
