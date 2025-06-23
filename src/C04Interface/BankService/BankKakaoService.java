@@ -1,4 +1,4 @@
 package C04Interface.BankService;
 
-public class BankKakaoService {
+public class BankKakaoService implements {
 }
