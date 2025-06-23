@@ -15,6 +15,7 @@ public class C06AbstractMain {
         d2.makeSound2();
 
 //        모든 메서드가 abstract인 클래스를 인터페이스라 한다.
+        
     }
 }
 
