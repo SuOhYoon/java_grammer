@@ -5,4 +5,9 @@ public class C01Cat implements C04AnimalInterface1, C01AnimalInterface2{
     public void makeSound() {
         System.out.println("야옹야옹");
     }
+
+    @Override
+    public String play(String a, String b) {
+        return null;
+    }
 }
