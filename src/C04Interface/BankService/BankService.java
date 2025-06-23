@@ -3,7 +3,7 @@ package C04Interface.BankService;
 public class BankService {
     void deposit(long money, BankAccount ba){
 //        현재 얼마있는지 조회
-        long now = 
+        long now = x`
 //        그 금액과 money와 합산하여 updateBalance
     }
 
