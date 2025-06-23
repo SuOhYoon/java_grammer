@@ -8,6 +8,8 @@ public class C06AbstractMain {
 
 //        추상클래스는 구현체없는 메서드가 있으므로, 기본적으로 객체 생성 불가능
 //        AbstractAnimal a1 = new AbstractAnimal();
+
+//        객체의 실체가 dog클래스를 통해 만들어지므로, 여기서는 d2의 makesound2를 사용가능
         AbstractAnimal d2 = new AbstractDog();
         d2.makeSound1();
         d2.makeSound2();
