@@ -2,6 +2,7 @@ package C03Inheritance;
 
 import java.util.List;
 
+//public class C06AbstractMain extends FinalParents{
 public class C06AbstractMain {
     public static void main(String[] args) {
         AbstractDog d1 = new AbstractDog();
