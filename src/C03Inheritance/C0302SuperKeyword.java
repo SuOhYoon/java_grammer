@@ -22,5 +22,6 @@ class SuperParents{
         this.a = a;
     }
 
-    
+    public SuperParents() {
+    }
 }
