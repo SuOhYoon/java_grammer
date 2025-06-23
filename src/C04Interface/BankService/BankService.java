@@ -5,7 +5,7 @@ public class BankService {
 
     }
 
-    void redraw(){
-        
+    void withdraw(){
+
     }
 }
