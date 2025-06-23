@@ -15,6 +15,10 @@ public class C03Inheritance extends Parents {
     }
 
 //    부모 메서드와 재정의(overriding) : 부모 클래스의 메서드명과 자식클래스의 메서드명이 동일한 상황
+public void m1(){
+    System.out.println("부모 클래스 입니다.");
+}
+
     public void m2(){
         System.out.println("자식 클래스의 m2메서드 입니다.");
     }
