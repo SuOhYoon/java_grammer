@@ -16,6 +16,7 @@ public class ProtectedTest extends C04ProtectedClass {
         p1.st4 = "hello python";
 
         C04ProtectedClass p2 = new C04ProtectedClass();
-        p2.st4 = "hello python";
+//        p2는 부모클래스의 객체이므로, 상속관계가 있는 객체가 아니므로, protected 변수에 접근 불가능하다.
+//        p2.st4 = "hello python";
     }
 }
