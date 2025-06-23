@@ -20,8 +20,7 @@ public class C04InterfaceMain {
         d1.makeSound();
 
 //        예시
-//        인터페이스의 장점
-//        1. 개발의 표준을 지정
+//        인터페이스의 장점 : 개발의 표준을 지정
         List<Integer> list1 = new ArrayList<>();
         list1.add(10);
         List<Integer> list2 = new LinkedList<>();
