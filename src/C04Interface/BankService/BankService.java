@@ -16,6 +16,7 @@ public class BankService {
             return false;
         } else {
             long newBalance = current - money;
+            return True;
         }
 //        그 금액과 money와 차감하여 updateBalance
         return false;
