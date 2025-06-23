@@ -13,5 +13,7 @@ class MemberInnerClass{
         this.a = 10;
     }
 
-    int getA
+    int getA(){
+        
+    }
 }
