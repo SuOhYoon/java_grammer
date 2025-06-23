@@ -5,7 +5,8 @@ public class C03AnimalMain {
         Dog d1 = new Dog();
         d1.sound();
 
-        Cat c1 = 
+        Cat c1 = new Cat();
+        c1.sound();
     }
 }
 
