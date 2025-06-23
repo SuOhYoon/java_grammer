@@ -17,4 +17,7 @@ class MemberInnerClass{
     int getA(){
         return this.a;
     }
+    static class StaticInnerClass{
+        
+    }
 }
