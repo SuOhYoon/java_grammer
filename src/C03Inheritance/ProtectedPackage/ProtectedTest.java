@@ -1,5 +1,5 @@
 package C03Inheritance.ProtectedPackage;
-
+// 같은 패키지내의 클래스가 아닌경우에는 import 필요
 import C03Inheritance.C04ProtectedClass;
 
 public class ProtectedTest {
