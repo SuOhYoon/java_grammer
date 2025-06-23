@@ -14,7 +14,7 @@ public class BankService {
         long current = ba.getBalance();
         if(current < money){
             return false;
-            //        그 금액과 money와 차감하여 updateBalance
+//        그 금액과 money와 차감하여 updateBalance
         } else {
             long newBalance = current - money;
             ba.updateBalance(newBalance);
