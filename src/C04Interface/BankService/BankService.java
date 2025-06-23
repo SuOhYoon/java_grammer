@@ -5,6 +5,7 @@ public class BankService {
 //        현재 얼마있는지 조회
         long current = ba.getBalance();
 //        그 금액과 money와 합산하여 updateBalance
+        long newBalance = current + money;
     }
 
     boolean withdraw(long money, BankAccount ba){
