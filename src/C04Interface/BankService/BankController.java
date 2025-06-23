@@ -20,7 +20,7 @@ public class BankController {
                 long money = Long.parseLong(sc.nextLine());
                 String bank = sc.nextLine();
                 if(bank.equals("1")){
-                    bs = new BankKakaoService().deposit(money, ba);
+                    bs = new BankKakaoService();
                 }
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
