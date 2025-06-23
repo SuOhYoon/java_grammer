@@ -13,3 +13,7 @@ class Animal{
 class Dog{
 
 }
+
+class Cat{
+
+}
