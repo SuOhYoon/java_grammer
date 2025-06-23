@@ -14,10 +14,10 @@ public class C04InterfaceMain {
         d1.makeSound();
 
 //        다형성 : 하나의 부모타입으로 여러 자식객체를 다룰 수 있음.
-        C04AnimalInterface1 c2 = new C01Cat();
+        C01AnimalInterface1 c2 = new C01Cat();
         c1.makeSound();
 
-        C04AnimalInterface1 d2 = new C01Dog();
+        C01AnimalInterface1 d2 = new C01Dog();
         d1.makeSound();
 
 //        예시
@@ -30,7 +30,7 @@ public class C04InterfaceMain {
         list1.get(0);
 
 //        다중구현(상속)
-        C04AnimalInterface1 c3 = new C01Cat();
+        C01AnimalInterface1 c3 = new C01Cat();
         C01AnimalInterface2 d3 = new C01Dog();
 
 //        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
