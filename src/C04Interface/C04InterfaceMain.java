@@ -8,10 +8,10 @@ public class C04InterfaceMain {
         C01Dog d1 = new C01Dog();
         d1.makeSound();
 
-        C01Cat c1 = new C01Cat();
+        C01Cat c2 = new C01Cat();
         c1.makeSound();
 
-        C01Dog d1 = new C01Dog();
+        C01Dog d2 = new C01Dog();
         d1.makeSound();
     }
 
