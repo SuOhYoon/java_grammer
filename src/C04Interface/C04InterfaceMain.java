@@ -8,6 +8,7 @@ public class C04InterfaceMain {
         C01Dog d1 = new C01Dog();
         d1.makeSound();
 
+
         C04AnimalInterface1 c2 = new C01Cat();
         c1.makeSound();
 
