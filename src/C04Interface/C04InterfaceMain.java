@@ -15,5 +15,6 @@ public class C04InterfaceMain {
         C04AnimalInterface1 d2 = new C01Dog();
         d1.makeSound();
     }
-//    예시 :
+//    예시
+    
 }
