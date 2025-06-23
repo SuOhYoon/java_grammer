@@ -17,6 +17,8 @@ class MemberInnerClass{
     int getA(){
         return this.a;
     }
+
+//    static내부클래스 : MemberInnerClass의 static변수처럼 활용
     static class StaticInnerClass{
         int b = 10;
 
