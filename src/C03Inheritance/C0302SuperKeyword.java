@@ -19,6 +19,6 @@ class SuperParents{
     int b = 20;
 
     public SuperParents(){
-        int c = 20;
+        
     }
 }
