@@ -9,7 +9,8 @@ public class C03Inheritance extends Parents {
         System.out.println(c1.a);
         System.out.println(c1.b);
         System.out.println(c1.c);
-        
+
+        c1.m1();
     }
 }
 
