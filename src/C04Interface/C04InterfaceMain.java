@@ -21,5 +21,6 @@ public class C04InterfaceMain {
     }
 //    예시
     List<Integer> list1 = new ArrayList<>();
+    list1.add(10);
     List<Integer> list2 = new LinkedList<>();
 }
