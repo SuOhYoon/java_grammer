@@ -36,7 +36,7 @@ public class C01InterfaceMain {
 
 //        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
         List<Integer> list = new LinkedList<>();
-        list.get();
+//        list.get();
         Queue<Integer> queue = new LinkedList<>();
         queue.size();
      }
