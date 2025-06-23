@@ -19,6 +19,6 @@ class SuperParents{
     int b = 20;
 
     public SuperParents(int a){
-
+        this.a = a;
     }
 }
