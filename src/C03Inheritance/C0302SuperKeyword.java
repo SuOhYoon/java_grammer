@@ -5,7 +5,7 @@ public class C0302SuperKeyword {
     public static void main(String[] args) {
         C0302SuperKeyword c2 = new C0302SuperKeyword();
         System.out.println(c2.a);
-        System.out.println(c2.display());
+        so
     }
 
     public void display(){
