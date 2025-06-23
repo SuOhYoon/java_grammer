@@ -9,5 +9,19 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public String getAccountNumber() {
+        return accountNumber;
+    }
 
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public Long getBalance() {
+        return balance;
+    }
+
+    public void setBalance(Long balance) {
+        this.balance = balance;
+    }
 }
