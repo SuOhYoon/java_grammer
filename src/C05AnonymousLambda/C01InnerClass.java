@@ -6,6 +6,6 @@ public class C01InnerClass {
     }
 }
 
-class MemberInnerClass(){
-    
+class MemberInnerClass{
+
 }
