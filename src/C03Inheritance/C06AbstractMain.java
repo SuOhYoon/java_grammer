@@ -17,6 +17,7 @@ public class C06AbstractMain {
         d2.makeSound2();
 
 //        모든 메서드가 abstract인 클래스를 인터페이스라 한다.
+//        인터페이스는 구현체가 없으므로, 기본적으로 별도의 객체 생성 불가
 //        List<Integer> myList = new List<>();
     }
 }
