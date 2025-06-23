@@ -11,6 +11,7 @@ public class ProtectedTest {
         p1.st1 = "hello python";
 //        패키지가 달라졌으므로 defualt변수는 접근불가
         p1.st3 = "hello python";
-        p1.st3 = "hello python";
+//        상속관계가 있을경우, 패키지가 달라도 protected변수에 접근 가능
+        p1.st4 = "hello python";
     }
 }
