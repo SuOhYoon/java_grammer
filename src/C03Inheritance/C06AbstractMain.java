@@ -10,6 +10,6 @@ class AbstractAnimal{
 
 }
 
-class AbstractAnimal{
+class AbstractDog{
 
 }
