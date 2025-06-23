@@ -24,6 +24,6 @@ class Parents {
     }
 
     public void m2(){
-        System.out.println("부모 클래스 입니다.");
+        System.out.println("자식 클래스의 m2메서드 입니다.");
     }
 }
