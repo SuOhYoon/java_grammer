@@ -6,9 +6,10 @@ public class C06AbstractMain {
         d1.makeSound1();
         d1.makesound2();
 
+        
         AbstractAnimal d2 = new AbstractDog();
         d2.makeSound1();
-        d2.makeSound1();
+        d2.makeSound2();
     }
 }
 
