@@ -13,6 +13,10 @@ public class C03Inheritance extends Parents {
         c1.m1();
         c1.m2();
     }
+
+    public void m2(){
+        System.out.println("자식 클래스의 m2메서드 입니다.");
+    }
 }
 
 class Parents {
