@@ -7,7 +7,7 @@ public class C06AbstractMain {
 }
 
 
-class AbstractAnimal{
+abstract class AbstractAnimal{
     void makeSound(){
         System.out.println("동물은 소리를 냅니다.");
     }
