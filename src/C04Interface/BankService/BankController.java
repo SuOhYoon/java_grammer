@@ -11,7 +11,13 @@ public class BankController {
 
         while(true){
             System.out.println("입금하시려면 1번, 출금하시려면 2번");
+            String serviceNumber = sc.nextLine();
             
+            if(serviceNumber.equals("1")){
+
+            } else {
+                
+            }
         }
     }
 }
