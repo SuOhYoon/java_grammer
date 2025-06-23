@@ -17,6 +17,7 @@ public class BankController {
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
                 BankService bs = new BankService();
+                bs.deposit();
             } else {
                 System.out.println();
             }
