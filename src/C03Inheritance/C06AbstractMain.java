@@ -16,6 +16,6 @@ abstract class AbstractAnimal{
     abstract void makesound2();
 }
 
-class AbstractDog{
+class AbstractDog extends AbstractAnimal{
 
 }
