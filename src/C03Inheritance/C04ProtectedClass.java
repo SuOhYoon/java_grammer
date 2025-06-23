@@ -8,5 +8,5 @@ public class C04ProtectedClass {
 
     static public String st1 = "hello java1";
     static private String st2 = "hello java2";
-    
+    static String st3 = "hello java3";
 }
