@@ -10,6 +10,8 @@ public class C03AnimalMain {
 
 //        상속 관계 일떄는 부모클래스의 타입을 자식클래스의 객체의 타입으로 지정하는 것이 가능
         Animal d2 = new Dog();
+        d2.sound();
+//        d2.sound2();
     }
 }
 
