@@ -6,7 +6,7 @@ public class C04ProtectedClass {
 //    public : 프로젝트 전체에서 접근가능(다른패키지여도 접근가능)
 //    private : 클래스내에서만 접근가능
 //    defualt : 생략가능. 패키지내에서만 접근가능
-    static public String st1 = "hello java1";
-    static private String st2 = "hello java2";
-    static String st3 = "hello java3";
+    public String st1 = "hello java1";
+    private String st2 = "hello java2";
+    String st3 = "hello java3";
 }
