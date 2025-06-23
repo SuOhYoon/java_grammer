@@ -38,5 +38,6 @@ public class C04InterfaceMain {
         List<Integer> list = new LinkedList<>();
         list.get();
         Queue<Integer> queue = new LinkedList<>();
+        queue.get();
      }
 }
