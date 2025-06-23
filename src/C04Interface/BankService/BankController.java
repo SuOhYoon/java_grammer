@@ -7,5 +7,6 @@ public class BankController {
         System.out.println("계좌번호를 입력하세요");
         Scanner sc = new Scanner(System.in);
         String accountNumber = sc.nextLine();
+        BankAccount ba = new BankAccount(accountNumber);
     }
 }
