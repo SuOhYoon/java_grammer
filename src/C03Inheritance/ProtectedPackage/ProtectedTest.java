@@ -1,5 +1,7 @@
 package C03Inheritance.ProtectedPackage;
 // 같은 패키지내의 클래스가 아닌경우에는 import 필요
+// 패키지 바로 하위의 모든 class는 *로 Import 가능.
+// 다만, 패키지내의 패키지안의 class는 *로 import불가
 import C03Inheritance.C04ProtectedClass;
 
 public class ProtectedTest {
