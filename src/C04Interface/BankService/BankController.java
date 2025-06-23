@@ -30,8 +30,13 @@ public class BankController {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
                 System.out.println("출금하실 금액을 입력해주세요");
                 long money  = Long.parseLong(sc.nextLine());
-                if(bs.withdraw(money, ba)){
-
+                String bank = sc.nextLine();
+                if(bank.equals("1")){
+                    bs = new BankKakaoService();
+                    bs.withdraw(money, ba);
+                } else {
+                    bs = new BankTossService();
+                    bs.deposit(money, ba);
                 }
             }
         }
