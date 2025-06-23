@@ -5,6 +5,8 @@ public class C06AbstractMain {
         AbstractDog d1 = new AbstractDog();
         d1.makeSound1();
         d1.makesound2();
+
+//        
     }
 }
 
