@@ -36,7 +36,7 @@ public class BankController {
                     bs.withdraw(money, ba);
                 } else {
                     bs = new BankTossService();
-                    bs.deposit(money, ba);
+                    bs.withdraw(money, ba);
                 }
             }
         }
