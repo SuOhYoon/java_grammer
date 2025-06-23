@@ -18,6 +18,12 @@ public class C04InterfaceMain {
 
         C04AnimalInterface1 d2 = new C01Dog();
         d1.makeSound();
+
+        //    예시
+        List<Integer> list1 = new ArrayList<>();
+        list1.add(10);
+        List<Integer> list2 = new LinkedList<>();
+        list2.add(10);
     }
 
 }
