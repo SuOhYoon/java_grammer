@@ -16,7 +16,7 @@ public class BankController {
             if(serviceNumber.equals("1")){
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
-                BankSerive bs =
+                BankService bs = new BankService();
             } else {
                 System.out.println();
             }
