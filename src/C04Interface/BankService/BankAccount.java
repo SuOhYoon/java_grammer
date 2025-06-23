@@ -6,7 +6,6 @@ public class BankAccount {
 
     public BankAccount(String accountNumber, Long balance) {
         this.accountNumber = accountNumber;
-        this.balance = balance;
     }
 
 //    최종 금액을 통해 update : 아래 메서드를 입/출금 모두에 활용
