@@ -9,4 +9,6 @@ public class C04ProtectedClass {
     public String st1 = "hello java1";
     private String st2 = "hello java2";
     String st3 = "hello java3";
+    
+    protected String s4 = "hello java4";
 }
