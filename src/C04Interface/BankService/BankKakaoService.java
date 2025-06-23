@@ -3,7 +3,11 @@ package C04Interface.BankService;
 public class BankKakaoService implements BankService{
     @Override
     public void deposit(long money, BankAccount ba) {
-
+//        현재 얼마있는지 조회
+        long current = ba.getBalance();
+        long newBalance = current + money;
+//        그 금액과 money와 합산하여 updateBalance
+        ba.updateBalance(newBalance);
     }
 
     @Override
