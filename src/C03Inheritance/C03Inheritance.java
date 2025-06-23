@@ -7,7 +7,7 @@ public class C03Inheritance {
 }
 
 class Parents {
-    int a = 20;
+    public int a = 20;
     private int b = 20;
 
     public void m1(){
