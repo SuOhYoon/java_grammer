@@ -23,19 +23,11 @@ public class BankController {
             if(serviceNumber.equals("1")){
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
-
+                bs.deposit();
 
             } else {
                 System.out.println("출금하실 금액을 입력해주세요");
                 long money  = Long.parseLong(sc.nextLine());
-                String bank = sc.nextLine();
-                if(bank.equals("1")){
-                    bs = new BankKakaoService();
-                    bs.withdraw(money, ba);
-                } else {
-                    bs = new BankTossService();
-                    bs.withdraw(money, ba);
-                }
             }
         }
     }
