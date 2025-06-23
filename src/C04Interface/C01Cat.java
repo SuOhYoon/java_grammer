@@ -8,6 +8,6 @@ public class C01Cat implements C04AnimalInterface1, C01AnimalInterface2{
 
     @Override
     public String play(String a, String b) {
-        return null;
+        return a+"와"+b가 산책을 합니다.
     }
 }
