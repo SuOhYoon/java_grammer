@@ -26,7 +26,7 @@ public class C04InterfaceMain {
         List<Integer> list1 = new ArrayList<>();
         list1.add(10);
         list1.remove(30);
-        list1.add(30);
+        list1.add(40);
         list1.add(40);
 
 //        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
