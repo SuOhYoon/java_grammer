@@ -9,6 +9,9 @@ public class BankController {
         String accountNumber = sc.nextLine();
         BankAccount ba = new BankAccount(accountNumber);
 
-        while(true)
+        while(true){
+            System.out.println("입금하시려면 1번, 출금하시려면 2번");
+            
+        }
     }
 }
