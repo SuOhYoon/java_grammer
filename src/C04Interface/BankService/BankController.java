@@ -12,7 +12,7 @@ public class BankController {
         while(true){
             System.out.println("입금하시려면 1번, 출금하시려면 2번");
             String serviceNumber = sc.nextLine();
-            BankService bs = new BankService();
+            BankServiceOriginal bs = new BankServiceOriginal();
             
             if(serviceNumber.equals("1")){
                 System.out.println("입금하실 금액을 입력해주세요");

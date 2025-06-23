@@ -1,6 +1,6 @@
 package C04Interface.BankService;
 
-public class BankService {
+public class BankServiceOriginal {
     void deposit(long money, BankAccount ba){
 //        현재 얼마있는지 조회
         long current = ba.getBalance();
