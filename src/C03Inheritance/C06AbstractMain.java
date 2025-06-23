@@ -18,4 +18,8 @@ abstract class AbstractAnimal{
 
 class AbstractDog extends AbstractAnimal{
 
+    @Override
+    void makesound2() {
+        
+    }
 }
