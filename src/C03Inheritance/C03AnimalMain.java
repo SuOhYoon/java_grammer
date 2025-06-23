@@ -12,7 +12,7 @@ public class C03AnimalMain {
 //        부모클래스의 타입을 지정시, 부모클래스에서 정의된 메서드만 객체에서 사용 가능.
         Animal d2 = new Dog();
         d2.sound();
-//        d2.sound2();
+//        d2.sound2(); // 사용불가
     }
 }
 
