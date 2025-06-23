@@ -9,7 +9,7 @@ public class C03Inheritance extends Parents {
         System.out.println(c1.a);
         System.out.println(c1.b);
 //        System.out.println(c1.c);
-
+//        메서드 상속
         c1.m1();
         c1.m2();
     }
