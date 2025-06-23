@@ -10,6 +10,6 @@ class Animal{
 
 }
 
-class Animal{
+class Dog{
 
 }
