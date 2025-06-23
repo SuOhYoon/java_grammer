@@ -15,11 +15,13 @@ public class BankController {
             System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
             String bank = sc.nextLine();
             BankService bs;
+            
             if(bank.equals("1")){
                 bs = new BankKakaoService();
             } else {
                 bs = new BankTossService();
             }
+
             if(serviceNumber.equals("1")){
                 System.out.println("입금하실 금액을 입력해주세요");
                 long money = Long.parseLong(sc.nextLine());
