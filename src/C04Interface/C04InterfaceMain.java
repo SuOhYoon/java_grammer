@@ -30,7 +30,7 @@ public class C04InterfaceMain {
         list1.get(0);
 
 //        다중구현(상속)
-        C01Cat c3 = new C01Cat();
+        C01AnimalInterface2 c3 = new C01Cat();
         C01Dog d3 = new C01Dog();
 
 //        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
