@@ -6,7 +6,7 @@ public class BankService {
 //        그 금액과 money와 합산하여 updateBalance
     }
 
-    void withdraw(long money, BankAccount ba){
+    boolean withdraw(long money, BankAccount ba){
 //        현재 얼마있는지 조회 && 출금금액과 비교
 //        그 금액과 money와 차감하여 updateBalance
     }
