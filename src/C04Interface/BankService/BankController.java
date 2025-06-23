@@ -23,7 +23,7 @@ public class BankController {
                     bs = new BankKakaoService();
                     bs.deposit(money, ba);
                 } else {
-                    bs = new BankKakaoService();
+                    bs = new BankTossService();
                     bs.deposit(money, ba);
                 }
             } else {
