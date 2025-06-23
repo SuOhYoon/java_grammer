@@ -12,7 +12,7 @@ public class BankController {
         while(true){
             System.out.println("입금하시려면 1번, 출금하시려면 2번");
             String serviceNumber = sc.nextLine();
-            BankService bs = 
+            BankService bs =
             
             if(serviceNumber.equals("1")){
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
@@ -20,7 +20,7 @@ public class BankController {
                 long money = Long.parseLong(sc.nextLine());
                 String bank = sc.nextLine();
                 if(bank.equals("1")){
-                    bs = BankKakaoService.deposit();
+                    bs = new BankKakaoService().deposit();
                 }
             } else {
                 System.out.println("입금방식을 선택해주세요. 1.카카오페이 2.토스페이");
