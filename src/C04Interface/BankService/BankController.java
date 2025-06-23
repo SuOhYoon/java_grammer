@@ -20,7 +20,7 @@ public class BankController {
                 bs.deposit(money, ba);
             } else {
                 System.out.println("출금하실 금액을 입력해주세요");
-                System.out.println();
+                long
             }
         }
     }
