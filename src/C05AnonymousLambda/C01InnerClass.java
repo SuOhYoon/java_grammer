@@ -20,7 +20,7 @@ class MemberInnerClass{
 
 //    static내부클래스 : MemberInnerClass의 static변수처럼 활용
     static class StaticInnerClass{
-        int b = 10;
+        int b = 20;
 
         void display(){
             System.out.println(this.b);
