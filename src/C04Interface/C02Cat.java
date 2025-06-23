@@ -1,4 +1,4 @@
 package C04Interface;
 
-public class C02Cat {
+public class C02Cat implements C04AnimalInterface1{
 }
