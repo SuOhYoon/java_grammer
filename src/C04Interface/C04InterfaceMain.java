@@ -27,5 +27,9 @@ public class C04InterfaceMain {
         list1.add(20);
         list1.add(30);
         list1.add(40);
-    }
+
+//        다중구현의 예시 -> 인터페이스에 따라 사용가능 메서드가 제한.
+        List<Integer> list = new LinkedList<>();
+        Queue<Integr> queue = new LinkedList<>()
+     }
 }
