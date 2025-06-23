@@ -22,7 +22,7 @@ public class C04InterfaceMain {
 //        예시
 //        인터페이스의 장점 : 개발의 표준을 지정
 //        다형성의 장점 :
-        ArrayList<Integer> list1 = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
         list1.add(10);
         list1.add(20);
         list1.add(30);
