@@ -1,7 +1,7 @@
 package C03Inheritance;
 
 import java.util.List;
-
+//final 키워드가 붙은 class는 상속 불가, final 키워드가 붙은 메서드는 overriding불가.
 //public class C06AbstractMain extends FinalParents{
 public class C06AbstractMain {
     public static void main(String[] args) {
