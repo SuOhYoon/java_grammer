@@ -9,7 +9,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
-//    
+//    최종 금액을 통해 update
     public void updateBalance(){
 
     }
