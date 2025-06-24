@@ -36,5 +36,6 @@ public class C04StreamAPi {
         IntStream stream3 = Arrays.stream(intArr);
 //        30보다 작은 값들의 총합
         int total = Arrays.stream(intArr).filter(a->a<=30).sum();
+        System.out.println(total);
     }
 }
