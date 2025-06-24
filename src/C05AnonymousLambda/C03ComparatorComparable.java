@@ -6,7 +6,8 @@ public class C03ComparatorComparable {
 //        Comparable인터페이스 : compareTo메서드 선언
 //        Comparator인터페이스 : compare메서드 선언
 
-//        s
+//        String클래스에 compareTo메서드 내장
+//        String클래스 및 java의 많은 클래스에서 Comparable을 상속하여 compareTo메서드를 구현.
         String a = "hello";
         String b = "world";
         System.out.println(a.compareTo(b)); // 마이너스
