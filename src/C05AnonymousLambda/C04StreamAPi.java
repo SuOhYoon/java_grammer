@@ -74,7 +74,8 @@ public class C04StreamAPi {
 //        int[] asc = Arrays.stream(pow).sorted().toArray();
 //        System.out.println(Arrays.toString(asc));
 //        스트림의 소모 : foreach(출력), sum(합계), max, min, count, reduce(누적연산)
-        int[] inAtt = {10, 20, 30, 40};
-        
+        int[] inArr = {10, 20, 30, 40};
+        int answer = 0;
+        Arrays.stream(intArr).forEach(a->);
     }
 }
