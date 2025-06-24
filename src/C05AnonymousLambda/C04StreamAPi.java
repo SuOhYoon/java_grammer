@@ -81,6 +81,6 @@ public class C04StreamAPi {
 //        optional객체 : 값이 있을수도 있고, 없을수도 있음을 명시한 객체
         int max = Arrays.stream(intArr).max().getAsInt();
         int min = Arrays.stream(intArr).min().getAsInt();
-        long count = Arrays.stream(intArr).count();
+        long count = (int)Arrays.stream(intArr).count();
     }
 }
