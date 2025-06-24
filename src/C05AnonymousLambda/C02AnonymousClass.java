@@ -4,6 +4,6 @@ package C05AnonymousLambda;
 public class C02AnonymousClass {
 }
 
-abstract class AbstradtAnumal{
+abstract class AbstradtAnimal{
     
 }
