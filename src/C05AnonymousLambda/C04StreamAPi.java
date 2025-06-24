@@ -63,6 +63,7 @@ public class C04StreamAPi {
 //        System.out.println(lenthTotal);
 
         int [] arr5 = {1, 2, 3, 4, 5, 6};
+//        arr에서 홀수만 담은 배열만 출력
         
     }
 }
