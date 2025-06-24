@@ -88,5 +88,7 @@ public class C04StreamAPi {
         System.out.println(acc);
         int accMultiply = Arrays.stream(inArr).reduce(1, (a, b) -> a*b);
         System.out.println(accMultiply);
+
+        String[] stArr =
     }
 }
