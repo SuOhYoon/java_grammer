@@ -97,6 +97,6 @@ public class C04StreamAPi {
         int ans = 0;
         Set<Integer> set = new HashSet<>();
         set.add(10);
-        answer = set.stream().findFirst();
+        ans = set.stream().findFirst();
     }
 }
