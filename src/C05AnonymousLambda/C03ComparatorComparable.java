@@ -44,7 +44,7 @@ public class C03ComparatorComparable {
             public int compare(Student o1, Student o2) {
                 return 0;
             }
-        })
+        });
     }
 }
 class Student implements Comparable<Student>{
