@@ -33,8 +33,10 @@ public class C03ComparatorComparable {
         Student s5 = new Student("kim",30);
 
 //        정렬방법 1. Student객체에서 Comparable을 직접 구현한 방식
+//        단점 : Student객체를 직접수정해야하므로, 유연성이 떨어짐.
 //        Collections.sort에서 Comparable을 구현한 객체를 요구.
         Collections.sort(studentList);
+        System.out.println(studentList);
     }
 }
 class Student implements Comparable<Student>{
