@@ -78,5 +78,6 @@ public class C04StreamAPi {
         int answer = 0;
         Arrays.stream(intArr).forEach(a-> System.out.println(a));
         int total4 = Arrays.stream(intArr).sum();
+        int max = Arrays.stream(intArr).sum();
     }
 }
