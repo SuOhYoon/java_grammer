@@ -16,7 +16,7 @@ public class C03ComparatorComparable {
         System.out.println(a.compareTo(b)); // 마이너스
 
         List<String> myList = new ArrayList<>();
-        mylist.add()
+        myList.add()
 
     }
 }
