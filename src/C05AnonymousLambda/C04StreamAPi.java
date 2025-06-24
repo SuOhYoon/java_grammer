@@ -22,6 +22,8 @@ public class C04StreamAPi {
         List<String> myList = new ArrayList<>();
         myList.add("HTML");
         myList.add("CSS");
-        myList.add()
+        myList.add("javascript");
+        Stream<String> stream1 = myList.stream();
+        String[] myArr = new String[3]
     }
 }
