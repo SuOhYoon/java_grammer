@@ -53,3 +53,7 @@ interface Animal1{
 interface Animal2{
     void makeSound1();
 }
+
+interface Animal3{
+    void makeSound1();
+}
