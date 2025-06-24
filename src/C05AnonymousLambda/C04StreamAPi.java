@@ -97,6 +97,7 @@ public class C04StreamAPi {
         System.out.println(firstSt);
 
 //        주의사항 : 제네릭의 타입소거
+
         String[] stArr3 = {"hello", "java", "world"};
         String[] ans2 = Arrays.stream(stArr3).filter(a->a.length()>=5).toArray(a->new String[a]);
     }
