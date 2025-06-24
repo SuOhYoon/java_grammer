@@ -40,7 +40,7 @@ public class C03ComparatorComparable {
         studentList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
         System.out.println(studentList);
 
-        String[] stArr = {"hello", "java", "C++", "world"};
+        String[] stArr = {"hello", "java", "C++", "world2"};
         Arrays.sort(stArr);
         Arrays.sort(stArr, Comparator.reverseOrder());
     }
