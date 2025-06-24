@@ -20,14 +20,14 @@ public class C02AnonymousClass {
         Animal1 a2 = new Animal1() {
             @Override
             public void makeSound1() {
-                
+
             }
 
             @Override
             public void makeSound2() {
 
             }
-        }
+        };
     }
 }
 
