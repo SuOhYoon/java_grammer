@@ -37,6 +37,8 @@ public class C03ComparatorComparable {
 //        Collections.sort에서 Comparable을 구현한 객체를 요구.
         Collections.sort(studentList);
         System.out.println(studentList);
+
+//        정렬방법2. Comparator를 구현한 익명객체를 사용.
     }
 }
 class Student implements Comparable<Student>{
