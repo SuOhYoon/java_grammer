@@ -33,7 +33,7 @@ public class C02AnonymousClass {
             System.out.println("hello world2");
         };
         a3.makeSound1();
-
+//        실행문이 1줄 일때에는 {} 제거 가능
         Animal2 a4 = () -> System.out.println("hello world1");
     }
 }
