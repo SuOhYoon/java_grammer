@@ -97,6 +97,6 @@ public class C04StreamAPi {
         System.out.println(firstSt);
 
 //        주의사항 : 제네릭의 타입소거
-        String[] stArr = 
+        String[] stArr = {"hello", "java", "world"};
     }
 }
