@@ -31,6 +31,9 @@ public class C03ComparatorComparable {
         Student s3 = new Student("kim",35);
         Student s4 = new Student("kim",15);
         Student s5 = new Student("kim",30);
+
+//        정렬방법 1. Student객체에서 Comparable을 직접 구현한 방식
+//        Collections.sort에서 Comparable을 구현한 객체를 요구.
         Collections.sort(studentList);
     }
 }
