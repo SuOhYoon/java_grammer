@@ -94,9 +94,9 @@ public class C04StreamAPi {
 
 //        findFirst : 첫번째요소 반환
 
-        int answer = 0;
+        int ans = 0;
         Set<Integer> set = new HashSet<>();
         set.add(10);
-
+        
     }
 }
