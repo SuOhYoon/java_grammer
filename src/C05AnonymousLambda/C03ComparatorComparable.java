@@ -17,7 +17,7 @@ public class C03ComparatorComparable {
 
         List<String> myList = new ArrayList<>();
         myList.add("java");
-        myList.add("java");
+        myList.add("python");
         myList.add("java");
 
     }
