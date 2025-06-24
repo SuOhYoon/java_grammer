@@ -44,12 +44,7 @@ public class C03ComparatorComparable {
         Arrays.sort(stArr);
         Arrays.sort(stArr, Comparator.reverseOrder());
 //        글자길이를 기준으로 내림차순 정렬
-        Arrays.sort(stArr, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return 0;
-            }
-        }
+        Arrays.sort(stArr, (o1, o2) -> o2.length
 
         System.out.println(Arrays.toString(stArr));
     }
