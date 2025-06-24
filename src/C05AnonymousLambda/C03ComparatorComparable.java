@@ -25,7 +25,7 @@ public class C03ComparatorComparable {
         Collections.sort(myList);
 
         Student s1 = new Student("kim",24);
-        Student s2 = new Student("kim",241;
+        Student s2 = new Student("kim",24);
         Student s3 = new Student("kim",24);
         Student s4 = new Student("kim",24);
         Student s5 = new Student("kim",24);
