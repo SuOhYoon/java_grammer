@@ -1,8 +1,6 @@
 package C05AnonymousLambda;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -95,6 +93,10 @@ public class C04StreamAPi {
         System.out.println(concat);
 
 //        findFirst : 첫번째요소 반환
-        
+
+        int answer = 0;
+        Set<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add()
     }
 }
