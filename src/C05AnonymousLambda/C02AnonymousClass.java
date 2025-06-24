@@ -37,7 +37,12 @@ public class C02AnonymousClass {
         Animal2 a4 = () -> System.out.println("hello world1");
 
 //        매개변수가 있는 익명객체의 람다함수 생성
-        Animal3 a5 =
+        Animal3 a5 = new Animal3() {
+            @Override
+            public String makeSound1(String a, String b, String c) {
+                return null;
+            }
+        }
     }
 }
 
