@@ -1,6 +1,9 @@
 package C05AnonymousLambda;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class C04StreamAPi {
     public static void main(String[] args) {
@@ -14,5 +17,9 @@ public class C04StreamAPi {
 //        streamApi : java에서 함수형프로그래밍을 지원하는 라이브러리
 //        foreach는 스트림의 각 요소를 하나씩 소모하면서 동작을 수행
         Arrays.stream(arr).forEach(a -> System.out.println(a));
+
+//        스트림의 생성 : .stream()
+        List<Stream> myList = new ArrayList<>();
+        myList.add()
     }
 }
