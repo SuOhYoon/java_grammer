@@ -64,7 +64,7 @@ class Student implements Comparable<Student>{
 //    this가 앞에 있으면 오름차순, 뒤에 있으면 내림차순으로 내부적으로 정렬로직 동작.
     @Override
     public int compareTo(Student o) {
-        return this.getName().compareTo(o.getName());
+//        return this.getName().compareTo(o.getName());
         return this.getAge()-o.getAge();
     }
 }
