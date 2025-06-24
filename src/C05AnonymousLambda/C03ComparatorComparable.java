@@ -42,6 +42,8 @@ public class C03ComparatorComparable {
 //        Comparator 활용도가 높은 이유는 많은 정렬 메서드에서 Comparator객체를 요구하기 때문.
         studentList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
         System.out.println(studentList);
+
+        String[] stArr = {"hello", "java", "C++", ""}
     }
 }
 class Student implements Comparable<Student>{
