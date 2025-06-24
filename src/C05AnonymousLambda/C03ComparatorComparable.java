@@ -2,6 +2,7 @@ package C05AnonymousLambda;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class C03ComparatorComparable {
@@ -21,6 +22,6 @@ public class C03ComparatorComparable {
         myList.add("python");
         myList.add("javascript");
         Collections.sort(myList);
-        myList.sort()
+        myList.sort(Comparator.naturalOrder());
     }
 }
