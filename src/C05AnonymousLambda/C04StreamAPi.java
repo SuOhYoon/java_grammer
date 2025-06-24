@@ -32,7 +32,7 @@ public class C04StreamAPi {
         Stream<String> stream2 = Arrays.stream(myArr);
 
 //        원시자료형을 위한 stream객체가 별도로 존재.
-        int[] intArr = {10,20,30,40,50};
+        int[] intArr = {10,10,30,40,50};
         IntStream stream3 = Arrays.stream(intArr);
 //        30보다 작은 값들의 총합
 //        filter : 특정기준을 대상을 filtering하여 새로운 스트림 반환하는 중개연산 메서드
@@ -41,7 +41,7 @@ public class C04StreamAPi {
         System.out.println(total);
 
 //        map : 기존의 스트림을 조작해 새로운 스트림을 반환
-        int[] intArr2 = {10,20,30,40,50};
+        int[] intArr2 = {10,10,30,40,50};
         int total2 = Arrays.stream(intArr2).map(a->a<*10).sum();
 
     }
