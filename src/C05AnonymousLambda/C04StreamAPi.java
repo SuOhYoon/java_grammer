@@ -12,6 +12,6 @@ public class C04StreamAPi {
 
 //        함수형 프로그램 방식 : 데이터와 객체 중심이 아닌, 입력에 따른 출력만 존재
 //        streamApi : java에서 함수형프로그래밍을 지원하는 라이브러리
-        Arrays.stream(arr).forEach(a -> System.out.println());
+        Arrays.stream(arr).forEach(a -> System.out.println(a));
     }
 }
