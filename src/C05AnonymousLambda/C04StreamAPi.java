@@ -82,5 +82,8 @@ public class C04StreamAPi {
         int max = Arrays.stream(intArr).max().getAsInt();
         int min = Arrays.stream(intArr).min().getAsInt();
         long count = (int)Arrays.stream(intArr).count();
+
+//        reduce : 누적연산
+        
     }
 }
