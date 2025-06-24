@@ -34,6 +34,6 @@ public class C04StreamAPi {
 //        원시자료형을 위한 stream객체가 별도로 존재.
         int[] intArr = {10,20,30,40,50};
         IntStream stream3 = Arrays.stream(intArr);
-        
+//        30
     }
 }
