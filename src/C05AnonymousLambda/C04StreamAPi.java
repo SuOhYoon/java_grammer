@@ -20,6 +20,7 @@ public class C04StreamAPi {
 
 //        스트림의 생성 : .stream()
         List<Stream> myList = new ArrayList<>();
-        myList.add()
+        myList.add("HTML");
+        myList.add("")
     }
 }
