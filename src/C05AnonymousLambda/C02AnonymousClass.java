@@ -33,9 +33,9 @@ public class C02AnonymousClass {
         Animal2 a3 = new Animal2() {
             @Override
             public void makeSound1() {
-                
+
             }
-        }
+        };
     }
 }
 
