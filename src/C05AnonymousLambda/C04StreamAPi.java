@@ -62,18 +62,18 @@ public class C04StreamAPi {
 //        int lenthTotal = Arrays.stream(stArr).mapToInt(a -> a.length()).sum();
 //        System.out.println(lenthTotal);
 
-        int [] arr5 = {1, 2, 3, 4, 5, 6};
-//        arr에서 홀수만 담은 배열만 출력
-        int [] odd = Arrays.stream(arr5).filter(a->a % 2 != 0).toArray();
-        System.out.println(Arrays.toString(odd));
+//        int [] arr5 = {1, 2, 3, 4, 5, 6};
+////        arr에서 홀수만 담은 배열만 출력
+//        int [] odd = Arrays.stream(arr5).filter(a->a % 2 != 0).toArray();
+//        System.out.println(Arrays.toString(odd));
+//
+////        arr에서 홀수만 걸러서 해당 홀수의 제곱값을 담은 배열을 생성 후 출력
+//        int [] pow = Arrays.stream(odd).map(a->a*a).toArray();
+//        System.out.println(Arrays.toString(pow));
+////        arr에서 홀수만 거르고, 제곱값을 구하고, 해당 숫자값을 오름차순한 순서로 배열을 생성 후 출력
+//        int[] asc = Arrays.stream(pow).sorted().toArray();
+//        System.out.println(Arrays.toString(asc));
 
-//        arr에서 홀수만 걸러서 해당 홀수의 제곱값을 담은 배열을 생성 후 출력
-        int [] pow = Arrays.stream(odd).map(a->a*a).toArray();
-        System.out.println(Arrays.toString(pow));
-//        arr에서 홀수만 거르고, 제곱값을 구하고, 해당 숫자값을 오름차순한 순서로 배열을 생성 후 출력
-        int[] asc = Arrays.stream(pow).sorted().toArray();
-        System.out.println(Arrays.toString(asc));
-
-//        
+//
     }
 }
