@@ -93,5 +93,8 @@ public class C04StreamAPi {
 //        hellojavaworld
         String concat = Arrays.stream(stArr2).reduce("", (a, b) -> a+b);
         System.out.println(concat);
+
+//        findFirst : 첫번째요소 반환
+        
     }
 }
