@@ -52,7 +52,8 @@ public class C04StreamAPi {
         System.out.println(total3);
 
         int[] intArr4 = {10, 40, 10, 30, 50};
-        int[] newArr4 = Arrays.stream(intArr4).sorted()
+        int[] newArr4 = Arrays.stream(intArr4).sorted().toArray();
+        System.out.println(Arrays.toString());
 
     }
 }
