@@ -39,7 +39,7 @@ public class C03ComparatorComparable {
         System.out.println(studentList);
 
 //        정렬방법2. Comparator를 구현한 익명객체를 사용.
-        studentList.sort(Comparator.comparing(Student::getName));
+        studentList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
     }
 }
 class Student implements Comparable<Student>{
