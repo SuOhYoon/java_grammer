@@ -28,6 +28,7 @@ public class C04StreamAPi {
         myArr[0] = "HTML";
         myArr[1] = "CSS";
         myArr[2] = "javascript";
-        Stream<String> stream2 = Arrays.stream()
+        Stream<String> stream2 = Arrays.stream(myArr);
+        
     }
 }
