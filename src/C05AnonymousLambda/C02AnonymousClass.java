@@ -5,5 +5,7 @@ public class C02AnonymousClass {
 }
 
 abstract class AbstradtAnimal{
-    
+    abstract void makeSound1(){
+        
+    }
 }
