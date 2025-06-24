@@ -9,7 +9,7 @@ public class C02AnonymousClass {
             @Override
             void makeSound1() {
 
-            }
+            };
         }
     }
 }
