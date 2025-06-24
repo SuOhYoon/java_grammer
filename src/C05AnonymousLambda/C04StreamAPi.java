@@ -92,5 +92,6 @@ public class C04StreamAPi {
         String[] stArr2 = {"hello", "java", "world"};
 //        hellojavaworld
         String concat = Arrays.stream(stArr2).reduce("", (a, b) -> a+b);
+        System.out.println(concat);
     }
 }
