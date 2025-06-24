@@ -51,9 +51,12 @@ public class C04StreamAPi {
         int total3 = Arrays.stream(intArr3).distinct().sum();
         System.out.println(total3);
 
+//        sorted : 정렬
         int[] intArr4 = {10, 40, 10, 30, 50};
         int[] newArr4 = Arrays.stream(intArr4).sorted().toArray();
-        System.out.println(Arrays.toString());
+        System.out.println(Arrays.toString(newArr4));
 
+//        mapToInt : intstream형태로 변환해주는 map
+        
     }
 }
