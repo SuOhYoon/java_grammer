@@ -93,6 +93,6 @@ public class C04StreamAPi {
         System.out.println(concat);
 
 //        findFirst : 첫번째요소 반환
-        String firstSt = Arrays.stream(stArr2).filter()
+        String firstSt = Arrays.stream(stArr2).filter(a->a.length()>=5)
     }
 }
