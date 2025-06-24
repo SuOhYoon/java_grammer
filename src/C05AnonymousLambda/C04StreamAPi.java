@@ -62,6 +62,6 @@ public class C04StreamAPi {
 //        int lenthTotal = Arrays.stream(stArr).mapToInt(a -> a.length()).sum();
 //        System.out.println(lenthTotal);
 
-        int [] arr = {}
+        int [] arr5 = {}
     }
 }
