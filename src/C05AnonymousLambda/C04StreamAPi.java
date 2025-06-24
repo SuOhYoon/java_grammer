@@ -89,6 +89,7 @@ public class C04StreamAPi {
         int accMultiply = Arrays.stream(inArr).reduce(1, (a, b) -> a*b);
         System.out.println(accMultiply);
 
-        String[] stArr =
+        String[] stArr2 = {"hello", "java", "world"};
+        
     }
 }
