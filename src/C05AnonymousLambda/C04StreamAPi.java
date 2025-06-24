@@ -19,8 +19,9 @@ public class C04StreamAPi {
         Arrays.stream(arr).forEach(a -> System.out.println(a));
 
 //        스트림의 생성 : .stream()
-        List<Stream> myList = new ArrayList<>();
+        List<String> myList = new ArrayList<>();
         myList.add("HTML");
         myList.add("CSS");
+        myList.add()
     }
 }
