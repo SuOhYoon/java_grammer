@@ -42,7 +42,7 @@ public class C04StreamAPi {
 
 //        map : 기존의 스트림을 조작해 새로운 스트림을 반환
         int[] intArr2 = {10,20,30,40,50};
-        
+        int total2 = Arrays.stream(intArr).filter(a->a<=30).sum();
 
     }
 }
