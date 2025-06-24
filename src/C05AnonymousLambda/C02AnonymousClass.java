@@ -68,5 +68,5 @@ interface Animal3{
 }
 
 interface Animal4{
-    
+    String makeSound(String a, String b, int c);
 }
