@@ -11,7 +11,7 @@ public class C04StreamAPi {
         int[] arr = {20, 10, 4, 12};
 //        전통적인 방식의 데이터 접근방법 : 메모리 주소접근
         for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i] + "\ㅜ");
+            System.out.println(arr[i] + "\n");
         }
 
 //        함수형 프로그램 방식 : 데이터와 객체 중심이 아닌, 입력에 따른 출력만 존재
