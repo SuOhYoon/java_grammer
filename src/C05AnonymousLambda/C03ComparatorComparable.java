@@ -1,9 +1,6 @@
 package C05AnonymousLambda;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class C03ComparatorComparable {
     public static void main(String[] args) {
@@ -44,6 +41,8 @@ public class C03ComparatorComparable {
         System.out.println(studentList);
 
         String[] stArr = {"hello", "java", "C++", "world"};
+        Arrays.sort(stArr);
+        Arrays.sort(stArr, Comparator.reverseOrder());
     }
 }
 class Student implements Comparable<Student>{
