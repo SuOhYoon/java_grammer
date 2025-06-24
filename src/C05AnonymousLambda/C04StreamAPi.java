@@ -64,6 +64,6 @@ public class C04StreamAPi {
 
         int [] arr5 = {1, 2, 3, 4, 5, 6};
 //        arr에서 홀수만 담은 배열만 출력
-        int [] odd = Arrays.stream(arr5).filter(a->a % 2 != 0)
+        int [] odd = Arrays.stream(arr5).filter(a->a % 2 != 0).map()
     }
 }
