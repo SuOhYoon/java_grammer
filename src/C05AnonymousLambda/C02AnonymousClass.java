@@ -41,8 +41,8 @@ public class C02AnonymousClass {
         Animal3 a6 = (i1, i2, i3) -> i1 + ", " + i2 + ", " + i3;
         System.out.println(a6.makeSound1("java", "python", "C++"));
 
-//        실습 : Animal4 인터페이스를 정의. makeSound메서드 선언
-        
+//        실습 : Animal4 인터페이스를 정의. makeSound메서드 선언(매개변수는 String, String, int. 리턴타입은 String)
+
     }
 }
 
