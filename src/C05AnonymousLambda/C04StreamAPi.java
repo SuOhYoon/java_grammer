@@ -36,6 +36,7 @@ public class C04StreamAPi {
         IntStream stream3 = Arrays.stream(intArr);
 //        30보다 작은 값들의 총합
 //        filter : 특정기준을 대상을 filtering하여 새로운 스트림 반환하는 중개연산 메서드
+//        sum : 스트림의 요소를 하나씩 소모하여 총합을 굼
         int total = Arrays.stream(intArr).filter(a->a<=30).sum();
         System.out.println(total);
     }
