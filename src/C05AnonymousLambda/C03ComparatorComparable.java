@@ -28,7 +28,7 @@ public class C03ComparatorComparable {
         Student s2 = new Student("kim",21);
         Student s3 = new Student("kim",35);
         Student s4 = new Student("kim",15);
-        Student s5 = new Student("kim",24);
+        Student s5 = new Student("kim",30);
         myList.sort(Comparator.naturalOrder());
     }
 }
