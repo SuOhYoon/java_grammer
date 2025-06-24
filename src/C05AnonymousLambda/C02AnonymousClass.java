@@ -45,7 +45,7 @@ public class C02AnonymousClass {
 //        익명객체 생성 : 메서드의 기능 - int숫자값이 10이상이면 a + b를 리턴, int숫자값이 10미만이면 a만 리턴
         Animal4 a7 = (i1, i2, i3) -> {
             if(i3 >= 10){
-                return a + b;
+                return i1 + i2;
             }
         };
 
