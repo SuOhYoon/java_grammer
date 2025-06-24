@@ -55,5 +55,5 @@ interface Animal2{
 }
 
 interface Animal3{
-    void makeSound1();
+    String makeSound1(String a, String b, String c);
 }
