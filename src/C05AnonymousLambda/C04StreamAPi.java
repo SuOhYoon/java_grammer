@@ -70,5 +70,6 @@ public class C04StreamAPi {
 //        arr에서 홀수만 걸러서 해당 홀수의 제곱값을 담은 배열을 생성 후 출력
         int [] pow = Arrays.stream(odd).map(a->a*a).toArray();
         System.out.println(Arrays.toString(pow));
+        
     }
 }
