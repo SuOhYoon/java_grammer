@@ -43,7 +43,7 @@ public class C03ComparatorComparable {
         studentList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
         System.out.println(studentList);
 
-        String[] stArr = {"hello", "java", "C++", ""}
+        String[] stArr = {"hello", "java", "C++", "python"};
     }
 }
 class Student implements Comparable<Student>{
