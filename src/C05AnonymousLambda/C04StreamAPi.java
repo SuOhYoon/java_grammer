@@ -7,5 +7,7 @@ public class C04StreamAPi {
         for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
         }
+
+//        함수형 프로그램 방식 : 데이터와 객체 중심이 아닌,
     }
 }
