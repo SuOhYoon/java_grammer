@@ -66,5 +66,8 @@ public class C04StreamAPi {
 //        arr에서 홀수만 담은 배열만 출력
         int [] odd = Arrays.stream(arr5).filter(a->a % 2 != 0).toArray();
         System.out.println(Arrays.toString(odd));
+
+//        arr에서 홀수만 걸러서 해당 홀수의 제곱값을 담은 배열을 생성 후 출력
+        
     }
 }
