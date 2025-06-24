@@ -38,6 +38,7 @@ public class C02AnonymousClass {
 
 //        매개변수가 있는 익명객체의 람다함수 생성
         Animal3 a5 = (i1, i2, i3) -> i1 + ", " + i2 + ", " + i3;
+        Animal3 a5 = (i1, i2, i3) -> i1 + ", " + i2 + ", " + i3;
     }
 }
 
