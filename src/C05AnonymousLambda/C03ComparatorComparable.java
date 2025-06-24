@@ -31,7 +31,7 @@ public class C03ComparatorComparable {
         Student s3 = new Student("kim",35);
         Student s4 = new Student("kim",15);
         Student s5 = new Student("kim",30);
-        Collections.sort(studentList);
+        Collections.sort(zg);
     }
 }
 class Student implements Comparator<Student>{
