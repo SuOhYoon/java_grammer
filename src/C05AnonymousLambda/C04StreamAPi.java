@@ -40,7 +40,7 @@ public class C04StreamAPi {
         int total = Arrays.stream(intArr).filter(a->a<=30).sum();
         System.out.println(total);
 
-        String[] stArr = {"HTML", "CSS", "JAVA", "PYTHON"};
-        
+//        map : 기존의 스트림을 조작해 새로운 스트림을 반환
+
     }
 }
