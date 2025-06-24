@@ -44,7 +44,7 @@ public class C02AnonymousClass {
 //        실습 : Animal4 인터페이스를 정의. makeSound메서드 선언(매개변수는 String, String, int. 리턴타입은 String)
 //        익명객체 생성 : 메서드의 기능 - int숫자값이 10이상이면 a + b를 리턴, int숫자값이 10미만이면 a만 리턴
         Animal4 a7 = (i1, i2, i3) -> {
-            
+            return a
         };
 
     }
