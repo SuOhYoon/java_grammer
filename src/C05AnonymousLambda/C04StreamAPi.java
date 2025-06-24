@@ -94,5 +94,6 @@ public class C04StreamAPi {
 
 //        findFirst : 첫번째요소 반환
         String firstSt = Arrays.stream(stArr2).filter(a->a.length()>=5).findFirst().get();
+        System.out.println(firstSt);
     }
 }
