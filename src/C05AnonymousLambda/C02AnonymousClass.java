@@ -34,9 +34,8 @@ public class C02AnonymousClass {
         };
         a3.makeSound1();
 
-        Animal2 a3 = () -> {
+        Animal3 a4 = () -> {
             System.out.println("hello world1");
-            System.out.println("hello world2");
         };
     }
 }
