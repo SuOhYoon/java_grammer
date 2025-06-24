@@ -50,7 +50,6 @@ public class C02AnonymousClass {
                 return i1;
             }
         };
-
     }
 }
 
