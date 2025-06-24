@@ -1,6 +1,7 @@
 package C05AnonymousLambda;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class C03ComparatorComparable {
@@ -19,6 +20,7 @@ public class C03ComparatorComparable {
         myList.add("java");
         myList.add("python");
         myList.add("javascript");
-
+        Collections.sort(myList);
+        myList.sort()
     }
 }
