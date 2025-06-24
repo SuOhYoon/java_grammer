@@ -48,8 +48,8 @@ public class C03ComparatorComparable {
             @Override
             public int compare(String o1, String o2) {
                 return 0;
-            }
-        };
+            };
+        }
 
         System.out.println(Arrays.toString(stArr));
     }
