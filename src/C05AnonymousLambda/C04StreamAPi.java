@@ -8,6 +8,7 @@ public class C04StreamAPi {
             System.out.println(arr[i]);
         }
 
-//        함수형 프로그램 방식 : 데이터와 객체 중심이 아닌,
+//        함수형 프로그램 방식 : 데이터와 객체 중심이 아닌, 입력에 따른 출력만 존재
+//        streamApi : 
     }
 }
