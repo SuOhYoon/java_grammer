@@ -17,12 +17,7 @@ public class C02AnonymousClass {
         a1.makeSound2();
 
 //        구현체가 없는 추상클래스 또는 인터페이스는 익명객체로 생성 가능.
-        Animal1 a2 = new Animal1() {
-            @Override
-            public void makeSound1() {
-                
-            }
-        }
+        Animal1 a2 = new 
     }
 }
 
