@@ -42,3 +42,8 @@ interface Animal1{
     void makeSound1();
     void makeSound2();
 }
+
+interface Animal1{
+    void makeSound1();
+    void makeSound2();
+}
