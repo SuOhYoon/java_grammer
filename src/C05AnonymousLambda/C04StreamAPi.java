@@ -77,6 +77,6 @@ public class C04StreamAPi {
         int[] inArr = {10, 20, 30, 40};
         int answer = 0;
         Arrays.stream(intArr).forEach(a-> System.out.println(a));
-        int total = Arrays.stream(intArr).sum();
+        int total4 = Arrays.stream(intArr).sum();
     }
 }
