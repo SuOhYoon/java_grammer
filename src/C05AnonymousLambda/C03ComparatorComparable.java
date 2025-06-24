@@ -25,3 +25,6 @@ public class C03ComparatorComparable {
         myList.sort(Comparator.naturalOrder());
     }
 }
+class Student{
+    
+}
