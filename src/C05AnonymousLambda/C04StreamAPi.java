@@ -41,6 +41,7 @@ public class C04StreamAPi {
         System.out.println(total);
 
 //        map : 기존의 스트림을 조작해 새로운 스트림을 반환
+        
 
     }
 }
