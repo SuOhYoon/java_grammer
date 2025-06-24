@@ -11,6 +11,8 @@ public class C02AnonymousClass {
 
             }
         };
+
+//        구현체가 없는 추상클래스 또는 이
     }
 }
 
