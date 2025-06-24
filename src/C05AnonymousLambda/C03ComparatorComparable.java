@@ -21,6 +21,7 @@ public class C03ComparatorComparable {
         myList.add("java");
         myList.add("python");
         myList.add("javascript");
+//        String안의 compareTo메서드를 사용해서 정렬이 이뤄짐.
         Collections.sort(myList);
         myList.sort(Comparator.naturalOrder());
     }
