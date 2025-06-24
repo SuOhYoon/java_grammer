@@ -93,10 +93,6 @@ public class C04StreamAPi {
         System.out.println(concat);
 
 //        findFirst : 첫번째요소 반환
-
-        int ans = 0;
-        Set<Integer> set = new HashSet<>();
-        set.add(10);
-        ans = set.stream().findFirst();
+        String firstSt = Arrays.stream(stArr)
     }
 }
