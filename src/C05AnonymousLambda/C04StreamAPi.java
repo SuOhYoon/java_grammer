@@ -71,6 +71,7 @@ public class C04StreamAPi {
         int [] pow = Arrays.stream(odd).map(a->a*a).toArray();
         System.out.println(Arrays.toString(pow));
 //        arr에서 홀수만 거르고, 제곱값을 구하고, 해당 숫자값을 오름차순한 순서로 배열을 생성 후 출력
-        int[] asc = Arrays.stream(pow).
+        int[] asc = Arrays.stream(pow).sorted().toArray();
+        System.out.println(Arrays.toString());
     }
 }
