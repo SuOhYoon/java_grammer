@@ -7,6 +7,6 @@ public class C03ComparatorComparable {
 //        Comparator인터페이스 : compare메서드 선언
         String a = "hello";
         String b = "world";
-        System.out.println();
+        System.out.println(a.compareTo(b)); // 마이너스
     }
 }
