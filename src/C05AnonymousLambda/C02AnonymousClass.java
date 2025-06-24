@@ -1,5 +1,7 @@
 package C05AnonymousLambda;
 
+import C03Inheritance.Animal;
+
 //익명 내부클래스
 public class C02AnonymousClass {
     public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class C02AnonymousClass {
         a1.makeSound2();
 
 //        구현체가 없는 추상클래스 또는 인터페이스는 익명객체로 생성 가능.
+        Anima1l a2 = new A
     }
 }
 
