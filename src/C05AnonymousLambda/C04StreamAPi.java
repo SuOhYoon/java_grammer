@@ -3,6 +3,7 @@ package C05AnonymousLambda;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class C04StreamAPi {
@@ -32,6 +33,6 @@ public class C04StreamAPi {
 
 //        원시자료형을 위한 stream객체가 별도로 존재.
         int[] intArr = {10,20,30,40,50};
-        
+        IntStream stream3 = Arrays.stream()
     }
 }
