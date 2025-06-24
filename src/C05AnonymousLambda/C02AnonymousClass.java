@@ -42,6 +42,7 @@ public class C02AnonymousClass {
         System.out.println(a6.makeSound1("java", "python", "C++"));
 
 //        실습 : Animal4 인터페이스를 정의. makeSound메서드 선언(매개변수는 String, String, int. 리턴타입은 String)
+//        익명객체 생성 : 메서드의 기능 - 
 
     }
 }
