@@ -1,7 +1,5 @@
 package C05AnonymousLambda;
 
-import C03Inheritance.Animal;
-
 //익명 내부클래스
 public class C02AnonymousClass {
     public static void main(String[] args) {
