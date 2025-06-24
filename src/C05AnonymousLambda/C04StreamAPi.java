@@ -61,5 +61,7 @@ public class C04StreamAPi {
 //        모든 문자열 길이의 총합
 //        int lenthTotal = Arrays.stream(stArr).mapToInt(a -> a.length()).sum();
 //        System.out.println(lenthTotal);
+
+        int [] arr = {}
     }
 }
