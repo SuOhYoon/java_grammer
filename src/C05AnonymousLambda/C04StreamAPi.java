@@ -51,7 +51,8 @@ public class C04StreamAPi {
         int total3 = Arrays.stream(intArr3).distinct().sum();
         System.out.println(total3);
 
-        int[] 
+        int[] intArr4 = {10, 40, 10, 30, 50};
+        int[] newArr4 = Arrays.stream(intArr4).sorted()
 
     }
 }
