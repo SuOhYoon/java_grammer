@@ -51,5 +51,7 @@ public class C04StreamAPi {
         int total3 = Arrays.stream(intArr3).distinct().sum();
         System.out.println(total3);
 
+        int[] 
+
     }
 }
