@@ -39,6 +39,7 @@ public class C03ComparatorComparable {
         System.out.println(studentList);
 
 //        정렬방법2. Comparator를 구현한 익명객체를 사용.
+//        Comparator 활용도가 높은 이유는 많은 정렬 메서드에서 Comparator객체를 요구하기 때문.
         studentList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
         System.out.println(studentList);
     }
