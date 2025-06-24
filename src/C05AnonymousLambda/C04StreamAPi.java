@@ -84,7 +84,7 @@ public class C04StreamAPi {
         long count = (int)Arrays.stream(intArr).count();
 
 //        reduce : 누적연산 -> reduce(초기값, 연산식)
-        int acc = Arrays.stream(intArr).reduce(0, (a, b) -> a,);
+        int acc = Arrays.stream(intArr).reduce(0, (a, b) -> a+b);
 
 
     }
