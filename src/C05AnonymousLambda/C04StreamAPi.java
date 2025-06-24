@@ -48,7 +48,8 @@ public class C04StreamAPi {
 
 //        distinct : 중복제거
         int[] intArr3 = {10,10,30,40,50};
-        int total3 = Arrays.stream(intArr3)
+        int total3 = Arrays.stream(intArr3).distinct().sum();
+        System.out.println(total3);
 
     }
 }
