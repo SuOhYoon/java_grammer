@@ -39,5 +39,8 @@ public class C04StreamAPi {
 //        sum : 스트림의 요소를 하나씩 소모하여 총합을 구하는 메서드
         int total = Arrays.stream(intArr).filter(a->a<=30).sum();
         System.out.println(total);
+
+        String[] stArr = {"HTML", "CSS", "JAVA", "PYTHON"};
+        
     }
 }
