@@ -31,7 +31,7 @@ public class C02AnonymousClass {
 
 //        인터페이스의 익명객체에 구현메서드가 1개밖에 없을때에는 람다표현식(화살표함수) 사용가능
         Animal2 a3 = () -> {
-            
+            System.out.println("hello world1");
         };
     }
 }
