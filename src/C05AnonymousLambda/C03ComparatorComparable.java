@@ -24,6 +24,13 @@ public class C03ComparatorComparable {
 //        String안의 compareTo메서드를 사용해서 정렬이 이뤄짐.
         Collections.sort(myList);
         myList.sort(Comparator.naturalOrder());
+
+        List<Student> studentList = new ArrayList<>();
+        Student s1 = new Student("kim",24);
+        Student s2 = new Student("kim",21);
+        Student s3 = new Student("kim",35);
+        Student s4 = new Student("kim",15);
+        Student s5 = new Student("kim",30);
     }
 }
 class Student{
