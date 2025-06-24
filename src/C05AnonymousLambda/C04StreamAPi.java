@@ -58,7 +58,7 @@ public class C04StreamAPi {
         System.out.println(Arrays.toString(newArr4));
 
 //        mapToInt : intstream형태로 변환해주는 map
-        String[] stArr = {"HTML"}
+        String[] stArr = {"HTML",""}
 
     }
 }
