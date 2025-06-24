@@ -35,6 +35,9 @@ public class C02AnonymousClass {
         a3.makeSound1();
 //        실행문이 1줄 일때에는 {} 제거 가능
         Animal2 a4 = () -> System.out.println("hello world1");
+
+//        매개변수가 있는 익명객체의 람다함수 생성
+        Animal3 a4 =
     }
 }
 
