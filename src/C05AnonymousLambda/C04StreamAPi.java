@@ -98,6 +98,6 @@ public class C04StreamAPi {
 
 //        주의사항 : 제네릭의 타입소거
         String[] stArr3 = {"hello", "java", "world"};
-        String[] ans2 = Arrays.stream(stArr3).filter()
+        String[] ans2 = Arrays.stream(stArr3).filter(a->a.length())
     }
 }
