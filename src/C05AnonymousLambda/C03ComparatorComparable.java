@@ -59,6 +59,8 @@ class Student implements Comparable<Student>{
                 '}';
     }
 
+//    정렬은 결국 2개의 값을 비교하는 것으로, A와 B대상 2개만 있으면 충분.
+//    두수(또는문자)의 비교의 경우 음수, 0, 양수 세 값중에 하나만 return. 이를 통해 정렬수행.
     @Override
     public int compareTo(Student o) {
         return this.getName().compareTo(o.getName());
