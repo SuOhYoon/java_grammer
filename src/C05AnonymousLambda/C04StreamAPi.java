@@ -80,6 +80,5 @@ public class C04StreamAPi {
         int total4 = Arrays.stream(intArr).sum();
 //        optional객체 : 값이 있을수도 있고, 없을수도 있음을 명시한 객체
         int max = Arrays.stream(intArr).max();
-        if()
     }
 }
