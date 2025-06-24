@@ -34,7 +34,7 @@ public class C03ComparatorComparable {
         Collections.sort(studentList);
     }
 }
-class Student implements Comparator<Student>{
+class Student implements Comparable<Student>{
     private String name;
     private int age;
 
