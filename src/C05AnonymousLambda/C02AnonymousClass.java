@@ -66,3 +66,7 @@ interface Animal2{
 interface Animal3{
     String makeSound1(String a, String b, String c);
 }
+
+interface Animal4{
+    
+}
