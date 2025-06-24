@@ -1,5 +1,8 @@
 package C05AnonymousLambda;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class C03ComparatorComparable {
     public static void main(String[] args) {
 //        자바에서는 비교를 위한 인터페이스가 대표적으로 2개가 제공
@@ -11,6 +14,9 @@ public class C03ComparatorComparable {
         String a = "hello";
         String b = "world";
         System.out.println(a.compareTo(b)); // 마이너스
+
+        List<String> mylist = new ArrayList<>();
+        mylist.add()
 
     }
 }
