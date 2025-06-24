@@ -34,6 +34,7 @@ public class C02AnonymousClass {
             System.out.println("hello world1");
             System.out.println("hello world2");
         };
+        a3.makeSound1();
     }
 }
 
