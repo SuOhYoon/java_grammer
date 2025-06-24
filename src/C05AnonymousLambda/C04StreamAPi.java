@@ -60,6 +60,6 @@ public class C04StreamAPi {
         String[] stArr = {"HTML", "CSS", "JAVA", "PYTHON"};
 //        모든 문자열 길이의 총합
 //        int lenthTotal = Arrays.stream(stArr).mapToInt(a -> a.length()).sum();
-        System.out.println();
+//        System.out.println(lenthTotal);
     }
 }
