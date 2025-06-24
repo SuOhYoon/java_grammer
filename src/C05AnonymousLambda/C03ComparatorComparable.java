@@ -23,7 +23,5 @@ public class C03ComparatorComparable {
         myList.add("javascript");
         Collections.sort(myList);
         myList.sort(Comparator.naturalOrder());
-
-        
     }
 }
