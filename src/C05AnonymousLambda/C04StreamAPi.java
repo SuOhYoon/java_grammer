@@ -90,6 +90,7 @@ public class C04StreamAPi {
         System.out.println(accMultiply);
 
         String[] stArr2 = {"hello", "java", "world"};
+//        hellojavaworld
         
     }
 }
