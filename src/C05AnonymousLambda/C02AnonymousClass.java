@@ -46,6 +46,8 @@ public class C02AnonymousClass {
         Animal4 a7 = (i1, i2, i3) -> {
             if(i3 >= 10){
                 return i1 + i2;
+            } else {
+                return i1;
             }
         };
 
