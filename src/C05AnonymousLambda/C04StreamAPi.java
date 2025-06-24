@@ -58,7 +58,7 @@ public class C04StreamAPi {
 
 //        mapToInt : intstream형태로 변환해주는 map
         String[] stArr = {"HTML", "CSS", "JAVA", "PYTHON"};
-//        모든 문자열의 총합
+//        모든 문자열 길이의 총합
         int lenthTotal = Arrays.stream(stArr).map().sum();
 
     }
