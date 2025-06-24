@@ -44,7 +44,10 @@ public class C04StreamAPi {
         int[] intArr2 = {10,10,30,40,50};
         int total2 = Arrays.stream(intArr2).map(a->a*10).sum();
         int[] newArr = Arrays.stream(intArr2).map(a->a*10).toArray();
-        System.out.println();
+        System.out.println(Arrays.toString(newArr));
+
+//        distinct : 중복제거
+        
 
     }
 }
