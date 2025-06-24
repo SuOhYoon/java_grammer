@@ -45,5 +45,4 @@ interface Animal1{
 
 interface Animal2{
     void makeSound1();
-    void makeSound2();
 }
