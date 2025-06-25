@@ -41,7 +41,7 @@ public class C01Exception {
         if(password.equals("1234")){
             return true;
         } else {
-            return false;
+            throw new IllegalArgumentException("비밀번호를 잘못 입력하셨습니다");
         }
     }
 }
