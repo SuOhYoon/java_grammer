@@ -5,7 +5,7 @@ public class C01Math {
 //        Math.random() : 임의의 수 반환. 0.0~1.0사이의 double형 반환
         System.out.println(Math.random());
         for(int i=0;i<7;i++){
-            System.out.println((int)Math.random()*100);
+            System.out.println((int)(Math.random()*100));
         }
     }
 }
