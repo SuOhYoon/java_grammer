@@ -1,6 +1,7 @@
 package C06EtcClass;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Calendar;
 
@@ -30,5 +31,7 @@ public class C02Calendar {
         System.out.println(localTime.getHour());
         System.out.println(localTime.getMinute());
         System.out.println(localTime.getSecond());
+
+        LocalDateTime localDateTime
     }
 }
