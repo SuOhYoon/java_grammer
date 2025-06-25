@@ -39,7 +39,7 @@ public class C04GenericMain {
 class GenericPerson<T>{
     private String value;
 
-    public Person(String value) {
+    public GenericPerson(String value) {
         this.value = value;
     }
 
