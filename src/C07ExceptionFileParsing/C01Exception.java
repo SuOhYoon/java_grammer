@@ -37,7 +37,7 @@ public class C01Exception {
 
 //        login(input);
 
-
+        checked exception
         login2(input);
         System.out.println("환영합니다.");
     }
