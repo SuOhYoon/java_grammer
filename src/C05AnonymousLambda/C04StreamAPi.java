@@ -186,6 +186,7 @@ public class C04StreamAPi {
         studentList.add(new Student("lee", 20));
         studentList.add(new Student("park", 20));
         System.out.println("조회하고자 하는 학생의 index 번호를 입력해주세요.");
-        Scanner sc = new Scanner()
+        Scanner sc = new Scanner(System.in);
+        int indexNumber = 
     }
 }
