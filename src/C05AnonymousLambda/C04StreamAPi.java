@@ -108,11 +108,11 @@ public class C04StreamAPi {
 
 //        streamApi실습
 //        List에 Student객체 4개 담기 : {"kim, 20}, {"choi", 32}, {"lee", 35}, {"park", 22}
-       List<Student> studentList2 = new ArrayList<>();
-       studentList2.add(new Student("kim", 20));
-       studentList2.add(new Student("choi", 32));
-       studentList2.add(new Student("lee", 35));
-       studentList2.add(new Student("park", 22));
+        List<Student> studentList2 = new ArrayList<>();
+        studentList2.add(new Student("kim", 20));
+        studentList2.add(new Student("choi", 32));
+        studentList2.add(new Student("lee", 35));
+        studentList2.add(new Student("park", 22));
 
        Stream<Student> studentStream = studentList2.stream();
 
