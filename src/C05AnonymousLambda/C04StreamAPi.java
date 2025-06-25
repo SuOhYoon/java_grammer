@@ -179,5 +179,6 @@ public class C04StreamAPi {
 
 //        평균 구하기 방법 2
 //        System.out.println(studentList.stream().mapToInt(a->a.getAge()).average().orElseThrow(()->new RuntimeException("값이 없습니다."));
+        
     }
 }
