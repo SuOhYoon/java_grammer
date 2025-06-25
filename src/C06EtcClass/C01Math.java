@@ -10,7 +10,8 @@ public class C01Math {
 
 //        Math.abs(() : 절대값 반환
 //        Math.ceil() : 올림, Math.floor() : 내림, Math.round() : 반올림
-        System.out.println(Math.ceil(5, 7));
+        System.out.println(Math.ceil(5.7));
         System.out.println(Math.floor(5.7));
+        System.out.println(Math.round());
     }
 }
