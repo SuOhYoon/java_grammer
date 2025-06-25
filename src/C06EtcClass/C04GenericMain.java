@@ -1,10 +1,12 @@
 package C06EtcClass;
 
+import java.util.Arrays;
+
 public class C04GenericMain {
     public static void main(String[] args) {
         String[] stArr = {"java", "python", "C"};
         stchange(stArr, 0, 1);
-        System.out.println(stArr, 0, 1);
+        System.out.println(Arrays.toString(stArr));
     }
 
     static void stchange(String[] arr, int a, int b){
