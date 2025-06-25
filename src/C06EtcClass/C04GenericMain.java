@@ -8,7 +8,7 @@ public class C04GenericMain {
         stchange(stArr, 0, 1);
         System.out.println(Arrays.toString(stArr));
 
-        int[] intArr = {10, 20, 30};
+        Integer [] intArr = {10, 20, 30};
         intchange(intArr, 0, 1);
         System.out.println(Arrays.toString(intArr));
 
