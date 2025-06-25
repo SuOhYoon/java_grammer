@@ -54,7 +54,7 @@ public class C01Exception {
         if(password.equals("1234")){
             return true;
         } else {
-//            예외를 강제 발생시킴으로서 이 시점에서 해당 메서드 강제 종료
+//            checked exception은 예외처리가 강제
 //            해당 메서드내에서 예외처리를 하든, 아니면 명시적으로 throw를 통해 호출 메서드쪽에 위임.
             throw new SQLException("비밀번호를 잘못 입력하셨습니다.");
         }
