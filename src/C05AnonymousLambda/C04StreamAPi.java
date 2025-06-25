@@ -154,5 +154,6 @@ public class C04StreamAPi {
             System.out.println("값이 없습니다."); // 에러 발생
     }
 
-//        방법2. or
+//        방법2. orElse() : 값이 있으면 있는값 return, 없으면 지정 값 return
+        System.out.println();
 }
