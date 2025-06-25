@@ -10,6 +10,6 @@ public class C01Exception {
         System.out.println("분자를 입력해주세요.");
         int head = Integer.parseInt(sc.nextLine());
         System.out.println("분모를 입력해주세요.");
-        
+        int tail = Integer.parseInt(sc.nextLine());
     }
 }
