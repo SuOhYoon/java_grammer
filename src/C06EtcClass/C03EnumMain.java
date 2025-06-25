@@ -21,7 +21,7 @@ public class C03EnumMain {
 //        Student s3 = new Student("hong3", ClassGrade.c3);
 
 //        Enum 클래스를 활용한 ClassGrade 세팅
-        Student s1 = new Student("hong", ClassGrade.c1);
+        Student s1 = new Student("hong", ClassGrade.FIRST_GRADE);
         Student s2 = new Student("hong2", ClassGrade.c2);
         Student s3 = new Student("hong3", ClassGrade.c3);
     }
