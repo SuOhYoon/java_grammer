@@ -8,6 +8,6 @@ public class C04GenericMain {
     }
 
     static String[] stchange(String[] stArr, int a, int b){
-        
+
     }
 }
