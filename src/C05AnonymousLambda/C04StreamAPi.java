@@ -182,7 +182,7 @@ public class C04StreamAPi {
 
 //        optional객체 예시2
         studentList.add(new Student("kim", 20));
-        studentList.add(new Student("kim", 20));
+        studentList.add(new Student("choi", 20));
         studentList.add(new Student("kim", 20));
         studentList.add(new Student("kim", 20));
     }
