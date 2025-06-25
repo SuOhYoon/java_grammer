@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C01Exception {
     public static void main(String[] args) {
-//        일반적인 예외처리 방식 : 예외가 발새시에 프로그램이 중지되지 않도록 하는 프로그래밍.
+//        일반적인 예외처리 방식 : 예외가 발생시에 프로그램이 중지되지 않도록 하는 프로그래밍.
 //        try {
 //            System.out.println("나눗셈 프로그램입니다.");
 //            Scanner sc = new Scanner(System.in);
