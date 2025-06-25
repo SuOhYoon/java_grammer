@@ -170,7 +170,9 @@ public class C04StreamAPi {
         List<Student> studentList = new ArrayList<>();
 
         OptionalDouble age = studentList.stream().mapToInt(a->a.getAge()).average();
-        
+        if(age.isPresent()){
+            System.out.println();
+        }
 
     }
 }
