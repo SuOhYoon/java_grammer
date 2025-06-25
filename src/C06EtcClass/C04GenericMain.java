@@ -14,6 +14,9 @@ public class C04GenericMain {
 
         allchange(stArr, 0, 1);
         allchange(intArr, 0, 1);
+
+        Person p1 = new Person("hongildong");
+        GenericPerson<Integer>p2 = new GenericPerson<Integer>()
     }
 
 //    제네릭메서드는 반환타입 왼족에 <T>라고 선언
