@@ -3,6 +3,7 @@ package C06EtcClass;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.temporal.ChronoField;
 import java.util.Calendar;
 
 public class C02Calendar {
@@ -35,6 +36,6 @@ public class C02Calendar {
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println(localDateTime.getYear());
         System.out.println(localDateTime.getHour());
-        System.out.println(localDateTime.get());
+        System.out.println(localDateTime.get(ChronoField.));
     }
 }
