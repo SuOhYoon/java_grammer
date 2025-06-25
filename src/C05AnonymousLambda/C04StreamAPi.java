@@ -145,24 +145,24 @@ public class C04StreamAPi {
         Optional<String> opt2_2 = Optional.ofNullable("hello"); // 값이 있는 Optional객체 생성
         Optional<String> opt3 = Optional.ofNullable("hello"); // 값이 있는 Optional객체 생
 
-//        Optional 객체 처리 방법 4가지
-//        방법1. isPresent()로 확인 후 get()
-        if(opt2_1.isPresent()){
-            System.out.println(opt2_1.get());
-        } else {
-            System.out.println(opt2_1.get()); // 에러 발생
-            System.out.println("값이 없습니다."); // 에러 발생
-        }
-
-//        방법2. orElse() : 값이 있으면 있는값 return, 없으면 지정 값 return
-        System.out.println(opt2_1.orElse("값이 없습니다."));
-        System.out.println(opt2_2.orElse("값이 없습니다."));
-
-//        방법3. orElseGet() : 값이 있으면 있는 값 return, 없으면 람다 함수 실행
-        System.out.println(opt2_1.orElseGet(()->new String("값이 없습니다.")));
-
-//        방법4. (가장많이 사용) orElseThrow : 값이 있으면 있는 값 return, 없으면 지정된 예외(에러) 발생
-//        개발에서 사용자에게 적절한 메시지 전달 목적과 의도된 코드 중단을 목표로 강제로 예외 발생시키는 경우는 매우 많음
+////        Optional 객체 처리 방법 4가지
+////        방법1. isPresent()로 확인 후 get()
+//        if(opt2_1.isPresent()){
+//            System.out.println(opt2_1.get());
+//        } else {
+//            System.out.println(opt2_1.get()); // 에러 발생
+//            System.out.println("값이 없습니다."); // 에러 발생
+//        }
+//
+////        방법2. orElse() : 값이 있으면 있는값 return, 없으면 지정 값 return
+//        System.out.println(opt2_1.orElse("값이 없습니다."));
+//        System.out.println(opt2_2.orElse("값이 없습니다."));
+//
+////        방법3. orElseGet() : 값이 있으면 있는 값 return, 없으면 람다 함수 실행
+//        System.out.println(opt2_1.orElseGet(()->new String("값이 없습니다.")));
+//
+////        방법4. (가장많이 사용) orElseThrow : 값이 있으면 있는 값 return, 없으면 지정된 예외(에러) 발생
+////        개발에서 사용자에게 적절한 메시지 전달 목적과 의도된 코드 중단을 목표로 강제로 예외 발생시키는 경우는 매우 많음
         System.out.println(opt2_1.orElseThrow(()->new RuntimeException("값이 없습니다.")));
         System.out.println(opt2_1.get()); //에러빌생. 의도치않은 에러발생.
     }
