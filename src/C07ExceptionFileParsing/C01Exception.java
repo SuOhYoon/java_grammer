@@ -37,7 +37,7 @@ public class C01Exception {
         System.out.println("환영합니다.");
     }
 
-    static boolean login(String password){
+    static boolean login(String password) throws IllegalArgumentException{
         if(password.equals("1234")){
             return true;
         } else {
