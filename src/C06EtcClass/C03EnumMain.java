@@ -26,4 +26,6 @@ class Student{
     }
 }
 
-class 
+class ClassGrade{
+    
+}
