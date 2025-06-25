@@ -39,5 +39,9 @@ public class C04GenericMain {
 class Person{
     private String value;
 
-    
+    public Person(String value) {
+        this.value = value;
+    }
+
+
 }
