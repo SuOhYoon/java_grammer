@@ -149,6 +149,8 @@ public class C04StreamAPi {
 //        방법1. isPresent()로 확인 후 get()
         if(opt2_1.isPresent()){
             System.out.println(opt2_1.get());
+        } else {
+            
         }
     }
 }
