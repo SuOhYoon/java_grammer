@@ -189,6 +189,6 @@ public class C04StreamAPi {
         Scanner sc = new Scanner(System.in);
         int indexNumber = Integer.parseInt(sc.nextLine());
 
-        
+        ㄴ
     }
 }
