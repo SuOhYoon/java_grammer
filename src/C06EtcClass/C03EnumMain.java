@@ -8,5 +8,5 @@ public class C03EnumMain {
 
 class Student{
     private String name;
-    private String class;
+    private String classGrade;
 }
