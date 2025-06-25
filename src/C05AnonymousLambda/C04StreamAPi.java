@@ -177,6 +177,7 @@ public class C04StreamAPi {
             throw new NoSuchElementException("값이 없습니다.");
         }
 
-
+//        평균 구하기 방법 2
+        System.out.println();
     }
 }
