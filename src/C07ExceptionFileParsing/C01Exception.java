@@ -38,8 +38,6 @@ public class C01Exception {
         } else {
             System.out.println("비밀번호가 틀렸습니다.");
         }
-
-
     }
 
     static boolean login(String password){
