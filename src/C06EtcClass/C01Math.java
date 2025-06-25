@@ -7,5 +7,8 @@ public class C01Math {
         for(int i=0;i<7;i++){
             System.out.println((int)(Math.random()*100));
         }
+
+//        Math.abs(() : 절대값 반환
+//        Math.
     }
 }
