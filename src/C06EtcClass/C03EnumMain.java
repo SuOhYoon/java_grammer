@@ -38,4 +38,6 @@ class Student{
 //
 //}
 
-enum ClassGrade
+enum ClassGrade{
+    First
+}
