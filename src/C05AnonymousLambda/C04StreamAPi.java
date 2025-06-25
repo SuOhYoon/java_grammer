@@ -148,7 +148,7 @@ public class C04StreamAPi {
 //        Optional 객체 처리 방법 4가지
 //        방법1. isPresent()로 확인 후 get()
         if(opt2_1.isPresent()){
-            System.out.println();
+            System.out.println(opt2_1.get());
         }
     }
 }
