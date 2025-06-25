@@ -37,7 +37,7 @@ public class C01Exception {
 
 //        login(input);
 
-        checked exception
+//        checked exception의 경우에는 예외처리를 위임받게되면, 반드시 예외처리를 하거나, 다시 throws해야함
         login2(input);
         System.out.println("환영합니다.");
     }
