@@ -56,3 +56,8 @@ class GenericPerson<T>{
         this.value = value;
     }
 }
+class Person{
+    private String value;
+
+    
+}
