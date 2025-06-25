@@ -19,6 +19,6 @@ public class C01Math {
         System.out.println(Math.max(10, 20)); // 20
 
 //        Math.pow(a, b) : a의 b제곱(b가 승수)
-        System.out.println();
+        System.out.println(Math.pow(2, 3));
     }
 }
