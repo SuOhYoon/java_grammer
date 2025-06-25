@@ -37,3 +37,5 @@ class Student{
 //    static final String c3 = "third_grade";
 //
 //}
+
+enum ClassGrade
