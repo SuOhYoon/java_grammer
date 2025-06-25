@@ -3,7 +3,7 @@ package C06EtcClass;
 public class C03EnumMain {
 
     static final String c1 = "first_grade";
-    static final String c1 = "firstGrade";
+    static final String c1 = "first_grade";
     static final String c1 = "firstGrade";
 
     public static void main(String[] args) {
