@@ -108,6 +108,8 @@ public class C04StreamAPi {
 
 //        streamApi실습
 //        List에 Student객체 4개 담기 : {"kim, 20}, {"choi", 32}, {"lee", 35}, {"park", 22}
+          List<Student> studentList2 = new ArrayList<>();
+          studentList2.add()
 
 //        1)모든 객체의 평균나이
 
