@@ -143,6 +143,6 @@ public class C04StreamAPi {
         Optional<String> opt1 = Optional.empty(); // 비어있는 Optional객체 생성
         Optional<String> opt2_1 = Optional.ofNullable(null); // 비어있는 Optional객체 생성
         Optional<String> opt2_2 = Optional.ofNullable("hello"); // 값이 있는 Optional객체 생성
-        Optional<String> opt3 = Optional.ofNullable("hello")
+        Optional<String> opt3 = Optional.ofNullable("hello"); // 값이 있는 Optional객체 생성
     }
 }
