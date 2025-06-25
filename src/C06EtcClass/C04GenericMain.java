@@ -13,6 +13,8 @@ public class C04GenericMain {
         System.out.println(Arrays.toString(intArr));
     }
 
+//    제네릭메서드는 반환타입 왼족에 <T>라고 선언
+//    이때 T에는 참조형 변수인 객체타입만을 허용
     static<T> void allchange(T[] arr, int a, int b){
         T temp = arr[a];
         arr[a] = arr[b];
