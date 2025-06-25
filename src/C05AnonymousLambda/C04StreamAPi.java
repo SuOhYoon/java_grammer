@@ -102,6 +102,6 @@ public class C04StreamAPi {
         String[] stArr3 = {"hello", "java", "world"};
         String[] ans2 = Arrays.stream(stArr3).filter(a->a.length()>=5).toArray(a->new String[a]);
 
-
+//        
     }
 }
