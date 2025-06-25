@@ -151,7 +151,6 @@ public class C04StreamAPi {
             System.out.println(opt2_1.get());
         } else {
             System.out.println(opt2_1.get()); // 에러 발생
-            System.out.println("값이 없습니다.");
-        }
+            System.out.println("값이 없습니다."); // 에러 발생
     }
 }
