@@ -30,5 +30,7 @@ public class C01Exception {
         }
     }
 
-    static boolean login(String password)
+    static boolean login(String password){
+        
+    }
 }
