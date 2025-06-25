@@ -101,5 +101,7 @@ public class C04StreamAPi {
 //        제네릭의 타입소거로 인해, toArray를 통해 바로 새로운 String배열을 만드는 것은 불가.
         String[] stArr3 = {"hello", "java", "world"};
         String[] ans2 = Arrays.stream(stArr3).filter(a->a.length()>=5).toArray(a->new String[a]);
+
+
     }
 }
