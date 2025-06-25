@@ -36,7 +36,7 @@ public class C04GenericMain {
     }
 }
 
-class Person{
+class GenericPerson<T>{
     private String value;
 
     public Person(String value) {
