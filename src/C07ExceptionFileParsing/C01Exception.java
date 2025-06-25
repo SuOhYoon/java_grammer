@@ -28,6 +28,8 @@ public class C01Exception {
 //        } finally {
 //            System.out.println("무조건 실행되는 문구입니다.");
 //        }
+
+//        의도된 예외 강제 발생 : 특정 시점에 ㅌ프로그램을 강제 중지.
         System.out.println("로그인을 위한 비밀번호를 입력해주세요");
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
