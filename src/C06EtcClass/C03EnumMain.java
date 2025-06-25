@@ -13,4 +13,7 @@ public class C03EnumMain {
 class Student{
     private String name;
     private String classGrade;
+
+    public Student(String hong, String s) {
+    }
 }
