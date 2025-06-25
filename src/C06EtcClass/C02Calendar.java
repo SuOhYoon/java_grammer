@@ -9,7 +9,7 @@ public class C02Calendar {
         System.out.println(myCalendar.getTime());
         System.out.println(myCalendar.get(Calendar.YEAR));
         System.out.println(myCalendar.get(Calendar.MONTH)+1);
-        System.out.println(myCalendar.get(Calendar.MONTH)+1);
-        System.out.println(myCalendar.get(Calendar.MONTH)+1);
+        System.out.println(myCalendar.get(Calendar.DAY_OF_WEEK)+1);
+        System.out.println(myCalendar.get(Calendar.DAY_OF_MONTH)+1);
     }
 }
