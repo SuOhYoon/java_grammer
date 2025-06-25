@@ -19,6 +19,6 @@ public class C01Exception {
             System.out.println("0으로 나누시면 안됩니다.");
             e.printStackTrace();
             System.out.println(e.getMessage());
-        }
+        } catch ()
     }
 }
