@@ -15,6 +15,7 @@ public class C02Calendar {
 //        System.out.println(myCalendar.get(Calendar.HOUR_OF_DAY)); // 날짜
 //        System.out.println(myCalendar.get(Calendar.MINUTE)); // 날짜
 //        System.out.println(myCalendar.get(Calendar.SECOND)); // 날짜
+        
 //        java.time 패키지의 LocalDateTime, LocalDate, LocalTime 클래스
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate);
