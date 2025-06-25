@@ -21,6 +21,7 @@ public class C01Exception {
             System.out.println(e.getMessage());
         } catch (NumberFormatException e){
             System.out.println("문자를 입력하시면 안됩니다.");
+            e.printStackTrace();
         }
     }
 }
