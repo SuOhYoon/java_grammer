@@ -2,7 +2,9 @@ package C06EtcClass;
 
 public class C03EnumMain {
 
-    static final c1 = "1학년";
+    static final String c1 = "firstGrade";
+    static final String c1 = "firstGrade";
+    static final String c1 = "firstGrade";
     public static void main(String[] args) {
 //        Student s1 = new Student("hong", "1학년");
 //        Student s2 = new Student("hong2", "firstGrade");
