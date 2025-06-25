@@ -35,6 +35,8 @@ public class C01Exception {
         String input = sc.nextLine();
         if(login(input)){
 
+        } else {
+            System.out.println("비밀번호가 틀렸습니다.");
         }
 
 
