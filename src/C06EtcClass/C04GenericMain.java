@@ -59,5 +59,7 @@ class GenericPerson<T>{
 class Person{
     private String value;
 
-    
+    public Person(String value) {
+        this.value = value;
+    }
 }
