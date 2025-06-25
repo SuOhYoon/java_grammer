@@ -36,8 +36,7 @@ public class C01Exception {
         if(login(input)){
             System.out.println("환영합니다.");
         } else {
-            throw new IllegalArgumentException("비밀번호가 틀렸습니다.")
-            System.out.println("비밀번호가 틀렸습니다.");
+            throw new IllegalArgumentException("비밀번호가 틀렸습니다.");
         }
     }
 
