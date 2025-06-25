@@ -3,8 +3,8 @@ package C06EtcClass;
 public class C03EnumMain {
 
     static final String c1 = "first_grade";
-    static final String c1 = "first_grade";
-    static final String c1 = "firstGrade";
+    static final String c1 = "second_grade";
+    static final String c1 = "third_grade";
 
     public static void main(String[] args) {
 //        Student s1 = new Student("hong", "1학년");
