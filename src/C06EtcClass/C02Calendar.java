@@ -8,6 +8,8 @@ public class C02Calendar {
         Calendar myCalendar = Calendar.getInstance();
         System.out.println(myCalendar.getTime());
         System.out.println(myCalendar.get(Calendar.YEAR));
-        System.out.println(myCalendar.get(Calendar.YEAR));
+        System.out.println(myCalendar.get(Calendar.MONTH)+1);
+        System.out.println(myCalendar.get(Calendar.MONTH)+1);
+        System.out.println(myCalendar.get(Calendar.MONTH)+1);
     }
 }
