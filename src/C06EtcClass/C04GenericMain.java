@@ -18,7 +18,7 @@ public class C04GenericMain {
         arr[b] = temp;
     }
 
-    static void stchange(int[] arr, int a, int b){
+    static void intchange(int[] arr, int a, int b){
         String temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
