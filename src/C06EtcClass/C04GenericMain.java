@@ -7,6 +7,7 @@ public class C04GenericMain {
         System.out.println(stArr, 0, 1);
     }
 
-    static String[] stchange(String[] stArr, int a, int b)P
+    static String[] stchange(String[] stArr, int a, int b){
         
+    }
 }
