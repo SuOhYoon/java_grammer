@@ -11,7 +11,7 @@ public class C03EnumMain {
 //        Student s2 = new Student("hong2", "firstGrade");
 //        Student s3 = new Student("hong3", "first_grade");
 
-//        static final을 통해 변수값 
+//        static final을 통해 변수값
 //        Student s1 = new Student("hong", c1);
 //        Student s2 = new Student("hong2", c2);
 //        Student s3 = new Student("hong3", c3);
@@ -31,9 +31,9 @@ class Student{
     }
 }
 
-class ClassGrade{
-    static final String c1 = "first_grade";
-    static final String c2 = "second_grade";
-    static final String c3 = "third_grade";
-
-}
+//class ClassGrade{
+//    static final String c1 = "first_grade";
+//    static final String c2 = "second_grade";
+//    static final String c3 = "third_grade";
+//
+//}
