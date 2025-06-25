@@ -12,6 +12,7 @@ public class C01Exception {
             int head = Integer.parseInt(sc.nextLine());
             System.out.println("분모를 입력해주세요.");
             int tail = Integer.parseInt(sc.nextLine());
+//            catch를 통해 예상되는 예외클래스를 분기처리한다.
         } catch {
 
         }
