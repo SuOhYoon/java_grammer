@@ -50,7 +50,7 @@ public class C01Exception {
         }
     }
 
-    static boolean login(String password) throws SQLException {
+    static boolean login2(String password) throws SQLException {
         if(password.equals("1234")){
             return true;
         } else {
