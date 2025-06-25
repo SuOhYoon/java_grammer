@@ -17,6 +17,7 @@ public class C01Exception {
 //            catch를 통해 예상되는 예외클래스를 분기처리한다.
         } catch(ArithmeticException e) {
             System.out.println("0으로 나누시면 안됩니다.");
+            e.printStackTrace();
         }
     }
 }
