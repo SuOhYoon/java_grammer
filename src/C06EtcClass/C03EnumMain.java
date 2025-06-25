@@ -4,7 +4,7 @@ public class C03EnumMain {
     public static void main(String[] args) {
         Student s1 = new Student("hong", "1학년");
         Student s2 = new Student("hong2", "firstGrade");
-        Student s3 = new Student("hong3", "1학년");
+        Student s3 = new Student("hong3", "first_grade");
 
     }
 }
