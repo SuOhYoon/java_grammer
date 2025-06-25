@@ -115,7 +115,7 @@ public class C04StreamAPi {
         studentList2.add(new Student("park", 22));
 
 //        1)모든 객체의 평균나이
-        double averageAge = studentList2.stream().mapToInt(a->a.getAge())
+        double averageAge = studentList2.stream().mapToInt(a->a.getAge()).average();
 
 
 
