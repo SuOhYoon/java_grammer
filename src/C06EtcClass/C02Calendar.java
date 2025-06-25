@@ -19,6 +19,9 @@ public class C02Calendar {
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate);
         System.out.println(localDate.getYear());
-        
+        System.out.println(localDate.getMonth());
+        System.out.println(localDate.getYear());
+        System.out.println(localDate.getYear());
+
     }
 }
