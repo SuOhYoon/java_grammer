@@ -103,6 +103,6 @@ public class C04StreamAPi {
         String[] ans2 = Arrays.stream(stArr3).filter(a->a.length()>=5).toArray(a->new String[a]);
 
 //        메소드 참조 : 하나의 메소드만을 호출하는 경우에 매개변수를 제거한 형식. 클래스명::메서드명
-        Arrays.stream(stArr3).forEach(System.out.println(););
+        Arrays.stream(stArr3).forEach(System.out.println());
     }
 }
