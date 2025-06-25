@@ -140,6 +140,6 @@ public class C04StreamAPi {
         }
 
 //        Optional객체 생성 방법 3가지.
-        
+        Optional<String>
     }
 }
