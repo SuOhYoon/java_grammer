@@ -135,6 +135,8 @@ public class C04StreamAPi {
         Optional<String> opt1 = Optional.ofNullable(null);
         if(opt1.isPresent()){
             System.out.println(opt1.get().compareTo("hello"));
+        } else {
+            System.out.println("값이 없습니다.");
         }
     }
 }
