@@ -195,6 +195,7 @@ public class C04StreamAPi {
         } else {
             optStudent = Optional.of()
         }
+        System.out.println(optStudent.);
 
         System.out.println(studentList.get(indexNumber));
 
