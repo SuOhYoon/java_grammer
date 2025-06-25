@@ -32,6 +32,8 @@ public class C02Calendar {
         System.out.println(localTime.getMinute());
         System.out.println(localTime.getSecond());
 
-        LocalDateTime localDateTime
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(localDateTime.getYear());
+        System.out.println(localDateTime.getYear());
     }
 }
