@@ -159,6 +159,6 @@ public class C04StreamAPi {
         System.out.println(opt2_2.orElse("값이 없습니다."));
 
 //        방법3. orElseGet() : 값이 있으면 있는 값 return, 없으면 람다 함수 실행
-        
+        System.out.println(opt2_1.orElseGet());
     }
 }
