@@ -13,7 +13,7 @@ public class C04GenericMain {
         System.out.println(Arrays.toString(intArr));
 
         allchange(stArr, 0, 1);
-        allchange(stArr, 0, 1);
+        allchange(intArr, 0, 1);
     }
 
 //    제네릭메서드는 반환타입 왼족에 <T>라고 선언
