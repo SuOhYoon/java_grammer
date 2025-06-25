@@ -138,5 +138,8 @@ public class C04StreamAPi {
         } else {
             System.out.println("값이 없습니다.");
         }
+
+//        Optional객체 생성 방법 3가지.
+        
     }
 }
