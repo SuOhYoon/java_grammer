@@ -169,13 +169,14 @@ public class C04StreamAPi {
 //        optional 객체 예시1
         List<Student> studentList = new ArrayList<>();
 
-//        평균 구하기 방법 1   
+//        평균 구하기 방법 1
         OptionalDouble age = studentList.stream().mapToInt(a->a.getAge()).average();
         if(age.isPresent()){
             System.out.println(age.getAsDouble());
         } else {
             throw new NoSuchElementException("값이 없습니다.");
         }
+
 
     }
 }
