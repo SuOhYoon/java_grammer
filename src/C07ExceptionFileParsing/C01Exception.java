@@ -31,6 +31,8 @@ public class C01Exception {
     }
 
     static boolean login(String password){
-        
+        if(password.equals("1234")){
+            return true;
+        }
     }
 }
