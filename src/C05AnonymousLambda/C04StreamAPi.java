@@ -164,6 +164,6 @@ public class C04StreamAPi {
 //        방법4. (가장많이 사용) orElseThrow : 값이 있으면 있는 값 return, 없으면 지정된 예외(에러) 발생
 //        개발에서 사용자에게 적절한 메시지 전달 목적과 의도된 코드 중단을 목표로 강제로 예외 발생시키는 경우는 매우 많음
         System.out.println(opt2_1.orElseThrow(()->new RuntimeException("값이 없습니다.")));
-        System.out.println();
+        System.out.println(opt2_1.get());
     }
 }
