@@ -129,7 +129,7 @@ public class C04StreamAPi {
         Optional<String> opt1 = Optional.ofNullable(null);
         String st1 = null;
         if(st1!=null){
-            
+            System.out.println(st1.compareTo("hello"));
         }
     }
 }
