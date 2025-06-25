@@ -1,5 +1,6 @@
 package C06EtcClass;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 
 public class C02Calendar {
@@ -15,6 +16,6 @@ public class C02Calendar {
 //        System.out.println(myCalendar.get(Calendar.MINUTE)); // 날짜
 //        System.out.println(myCalendar.get(Calendar.SECOND)); // 날짜
 //        java.time 패키지의 LocalDateTime, LocalDate, LocalTime 클래스
-        
+        LocalDate localDate = LocalDate.now();
     }
 }
