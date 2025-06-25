@@ -44,5 +44,7 @@ public class C02Calendar {
 //        .of : 임의로 특정시간정보객체를 만들어 내고 싶을때 사용
         LocalDate birthDay = LocalDate.of(2000, 11, 12);
         System.out.println(birthDay);
+
+        
     }
 }
