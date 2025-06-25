@@ -116,8 +116,9 @@ public class C04StreamAPi {
 
 //        1)모든 객체의 평균나이
         double averageAge = studentList2.stream().mapToInt(a->a.getAge()).average().getAsDouble();
+        System.out.println(averageAge);
 //        2) 정렬을 통한 가장 나이 어린 사람 찾기 :
-        
+
 
 //        3)30대인 사람들의 이름만 모아서 새로운 String배열에 담기
     }
