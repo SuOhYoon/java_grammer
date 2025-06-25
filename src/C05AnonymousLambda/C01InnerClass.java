@@ -1,6 +1,7 @@
-package C05AnonymousLambda;
+package C05AnonymousLamda;
 
 public class C01InnerClass {
+
     public static void main(String[] args) {
         MemberInnerClass m1 = new MemberInnerClass();
         System.out.println(m1.getA());
@@ -10,22 +11,23 @@ public class C01InnerClass {
     }
 }
 
-// (일반)내부 클래스
-class MemberInnerClass{
+// (일반) 내부 클래스
+class MemberInnerClass {
     int a;
-    MemberInnerClass(){
+
+    MemberInnerClass() {
         this.a = 10;
     }
 
-    int getA(){
+    int getA() {
         return this.a;
     }
 
-//    static내부클래스 : MemberInnerClass의 static변수처럼 활용
-    static class StaticInnerClass{
+    //    static 내부 클래스 : MemberInnerClass의 static 변수처럼 활용
+    static class StaticInnerClass {
         int b = 20;
 
-        void display(){
+        void display() {
             System.out.println(this.b);
         }
     }
