@@ -25,7 +25,7 @@ public class C03EnumMain {
 
 class Student{
     private String name;
-    private String classGrade;
+    private ClassGrade classGrade;
 
     public Student(String name, String classGrade) {
     }
