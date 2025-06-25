@@ -36,6 +36,7 @@ public class C01Exception {
         if(login(input)){
             System.out.println("환영합니다.");
         } else {
+//            예외를 강제 발생시킴으로써 이 시점에서 해당 메서드 강제 종료
             throw new IllegalArgumentException("비밀번호가 틀렸습니다.");
         }
     }
