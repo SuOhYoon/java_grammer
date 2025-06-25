@@ -38,6 +38,6 @@ public class C02Calendar {
         System.out.println(localDateTime.getHour());
         System.out.println(localDateTime.get(ChronoField.YEAR));
         System.out.println(localDateTime.get(ChronoField.MONTH_OF_YEAR));
-        System.out.println(localDateTime.get(ChronoField.AMPM_OF_DAY));
+        System.out.println(localDateTime.get(ChronoField.AMPM_OF_DAY)); // 0:오전, 1:오후
     }
 }
