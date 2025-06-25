@@ -44,7 +44,7 @@ public class C01Exception {
             return true;
         } else {
 //            예외를 강제 발생시킴으로서 이 시점에서 해당 메서드 강제 종료
-//            예외는 강제적으로 
+//            예외는 기본적으로 해당 메서드를 호출한 쪽으로 전파
             throw new IllegalArgumentException("비밀번호를 잘못 입력하셨습니다.");
         }
     }
