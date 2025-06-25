@@ -21,7 +21,7 @@ public class C02Calendar {
         System.out.println(localDate.getYear());
         System.out.println(localDate.getMonth());
         System.out.println(localDate.getDayOfMonth());
-        System.out.println(localDate.getYear());
+        System.out.println(localDate.getDayOfWeek());
 
     }
 }
