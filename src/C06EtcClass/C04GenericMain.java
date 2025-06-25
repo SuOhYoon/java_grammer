@@ -8,6 +8,6 @@ public class C04GenericMain {
     }
 
     static void stchange(String[] stArr, int a, int b){
-        
+        String temp = arr[a];
     }
 }
