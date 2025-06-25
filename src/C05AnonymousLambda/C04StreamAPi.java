@@ -115,6 +115,7 @@ public class C04StreamAPi {
           studentList2.add(new Student("park", 22));
 
 //        1)모든 객체의 평균나이
+        
 
 //        2)가장 나이 어린 사람 찾기 :
 
