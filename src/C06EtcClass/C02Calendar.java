@@ -18,6 +18,7 @@ public class C02Calendar {
 //        java.time 패키지의 LocalDateTime, LocalDate, LocalTime 클래스
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate);
-        System.out.println();
+        System.out.println(localDate.getYear());
+        
     }
 }
