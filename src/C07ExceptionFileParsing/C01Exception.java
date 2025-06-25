@@ -34,7 +34,7 @@ public class C01Exception {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         if(login(input)){
-
+            System.out.println("환영합니다.");
         } else {
             System.out.println("비밀번호가 틀렸습니다.");
         }
