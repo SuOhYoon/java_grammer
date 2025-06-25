@@ -34,6 +34,6 @@ public class C02Calendar {
 
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println(localDateTime.getYear());
-        System.out.println(localDateTime.getYear());
+        System.out.println(localDateTime.getHour());
     }
 }
