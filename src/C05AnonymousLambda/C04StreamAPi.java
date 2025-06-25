@@ -122,8 +122,8 @@ public class C04StreamAPi {
             @Override
             public int compare(Student o1, Student o2) {
                 return 0;
-            };
-        })
+            }
+        });
 
 
 //        3)30대인 사람들의 이름만 모아서 새로운 String배열에 담기
