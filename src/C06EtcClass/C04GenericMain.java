@@ -15,7 +15,7 @@ public class C04GenericMain {
         allchange(stArr, 0, 1);
         allchange(intArr, 0, 1);
 
-
+//        일반객체 생성시
         Person p1 = new Person("hongildong");
         GenericPerson<Integer>p2 = new GenericPerson<Integer>(10);
     }
