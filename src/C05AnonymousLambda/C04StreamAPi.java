@@ -130,6 +130,8 @@ public class C04StreamAPi {
         String st1 = null;
         if(st1!=null){
             System.out.println(st1.compareTo("hello"));
+        } else {
+            System.out.println("값 없음");
         }
     }
 }
