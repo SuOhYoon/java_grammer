@@ -35,3 +35,9 @@ public class C04GenericMain {
         arr[b] = temp;
     }
 }
+
+class Person{
+    private String value;
+
+    
+}
