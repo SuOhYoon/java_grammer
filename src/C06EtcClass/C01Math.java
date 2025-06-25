@@ -13,5 +13,7 @@ public class C01Math {
         System.out.println(Math.ceil(5.7));
         System.out.println(Math.floor(5.7));
         System.out.println(Math.round(5.7));
+
+        
     }
 }
