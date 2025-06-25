@@ -11,7 +11,7 @@ public class C03EnumMain {
 //        Student s2 = new Student("hong2", "firstGrade");
 //        Student s3 = new Student("hong3", "first_grade");
 
-        Student s1 = new Student("hong", "1학년");
+        Student s1 = new Student("hong", c1);
         Student s2 = new Student("hong2", "firstGrade");
         Student s3 = new Student("hong3", "first_grade");
 
