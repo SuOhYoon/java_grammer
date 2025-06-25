@@ -25,6 +25,8 @@ public class C01Exception {
 //            Exception은 모든 예외의 초상 클래스
         } catch (Exception e){
             System.out.println("예상치 못한 에러가 발생했습니다.");
+        } finally {
+            System.out.println("무조건 실행되는 문구입니다.");
         }
     }
 }
