@@ -166,7 +166,7 @@ public class C04StreamAPi {
 //        System.out.println(opt2_1.orElseThrow(()->new RuntimeException("값이 없습니다.")));
 //        System.out.println(opt2_1.get()); //에러빌생. 의도치않은 에러발생.
 
-//        optional 객체 예시
+//        optional 객체 예시1
         List<Student> studentList = new ArrayList<>();
 
         OptionalDouble age = studentList.stream().mapToInt(a->a.getAge()).average();
