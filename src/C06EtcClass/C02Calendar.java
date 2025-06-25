@@ -5,14 +5,14 @@ import java.util.Calendar;
 public class C02Calendar {
     public static void main(String[] args) {
 //        java.util패키지의 Calendar클래스
-        Calendar myCalendar = Calendar.getInstance();
-        System.out.println(myCalendar.getTime());
-        System.out.println(myCalendar.get(Calendar.YEAR));
-        System.out.println(myCalendar.get(Calendar.MONTH)+1);
-        System.out.println(myCalendar.get(Calendar.DAY_OF_WEEK)); // 요일
-        System.out.println(myCalendar.get(Calendar.DAY_OF_MONTH)); // 날짜
-        System.out.println(myCalendar.get(Calendar.HOUR_OF_DAY)); // 날짜
-        System.out.println(myCalendar.get(Calendar.MINUTE)); // 날짜
-        System.out.println(myCalendar.get(Calendar.SECOND)); // 날짜
+//        Calendar myCalendar = Calendar.getInstance();
+//        System.out.println(myCalendar.getTime());
+//        System.out.println(myCalendar.get(Calendar.YEAR));
+//        System.out.println(myCalendar.get(Calendar.MONTH)+1);
+//        System.out.println(myCalendar.get(Calendar.DAY_OF_WEEK)); // 요일
+//        System.out.println(myCalendar.get(Calendar.DAY_OF_MONTH)); // 날짜
+//        System.out.println(myCalendar.get(Calendar.HOUR_OF_DAY)); // 날짜
+//        System.out.println(myCalendar.get(Calendar.MINUTE)); // 날짜
+//        System.out.println(myCalendar.get(Calendar.SECOND)); // 날짜
     }
 }
