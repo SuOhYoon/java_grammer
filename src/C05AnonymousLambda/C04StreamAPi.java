@@ -188,7 +188,11 @@ public class C04StreamAPi {
         System.out.println("조회하고자 하는 학생의 index 번호를 입력해주세요.");
         Scanner sc = new Scanner(System.in);
         int indexNumber = Integer.parseInt(sc.nextLine());
-        
+//        index범위가 list안에 있으면 Optional.ofNullable 또는 of, ofEmpty 활용
+        Optional<Student> optStudent;
+        if(studentList.size() <= indexNumber){
+            optStudent = Optional.empty();
+        }
 
         System.out.println(studentList.get(indexNumber));
 
