@@ -122,7 +122,7 @@ public class C04StreamAPi {
         System.out.println(s1);
 
 //        3)30대인 사람들의 이름만 모아서 새로운 String배열에 담기
-        String[] arr = myList.stream().map(a -> a.getName());
+        String[] arr = studentList2.stream().map(a -> a.getName());
 
     }
 }
