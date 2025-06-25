@@ -169,7 +169,8 @@ public class C04StreamAPi {
 //        optional 객체 예시
         List<Student> studentList = new ArrayList<>();
 
-        OptionalDouble age = studentList.stream().mapToInt(a->a.getAge()).average().getAsDouble();
+        OptionalDouble age = studentList.stream().mapToInt(a->a.getAge()).average();
         
+
     }
 }
