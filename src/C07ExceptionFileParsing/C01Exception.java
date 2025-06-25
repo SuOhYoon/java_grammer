@@ -18,6 +18,7 @@ public class C01Exception {
         } catch(ArithmeticException e) {
             System.out.println("0으로 나누시면 안됩니다.");
             e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
