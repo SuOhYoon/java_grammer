@@ -42,6 +42,7 @@ public class C02Calendar {
         System.out.println(localDateTime.get(ChronoField.CLOCK_HOUR_OF_DAY));
 
 //        .of : 임의로 특정시간정보객체를 만들어 내고 싶을때 사용
-        LocalTimedate birthDay
+        LocalDate birthDay = LocalDate.of(2000, 7, 12);
+        
     }
 }
