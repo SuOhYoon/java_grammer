@@ -20,7 +20,7 @@ public class C01Math {
 
 //        Math.pow(a, b) : a의 b제곱(b가 승수)
         System.out.println(Math.pow(2, 3));
-//        Math.sqrt(a, b) : a의 b제곱(b가 승수)
-        System.out.println(Math.pow(2, 3));
+//        Math.sqrt(a, b) : a의 제곱근
+        System.out.println(Math.sqrt(2, 3));
     }
 }
