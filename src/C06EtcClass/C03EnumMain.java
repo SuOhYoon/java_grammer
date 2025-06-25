@@ -16,9 +16,9 @@ public class C03EnumMain {
 //        Student s2 = new Student("hong2", c2);
 //        Student s3 = new Student("hong3", c3);
 
-        Student s1 = new Student("hong", ClassGrade.c1);
-        Student s2 = new Student("hong2", ClassGrade.c2);
-        Student s3 = new Student("hong3", ClassGrade.c3);
+//        Student s1 = new Student("hong", ClassGrade.c1);
+//        Student s2 = new Student("hong2", ClassGrade.c2);
+//        Student s3 = new Student("hong3", ClassGrade.c3);
 
     }
 }
