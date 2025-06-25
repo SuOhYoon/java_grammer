@@ -112,7 +112,7 @@ public class C04StreamAPi {
           studentList2.add(new Student("kim", 20));
           studentList2.add(new Student("choi", 32));
           studentList2.add(new Student("lee", 35));
-          studentList2.add(new Student("park", 20));
+          studentList2.add(new Student("park", 22));
 
 //        1)모든 객체의 평균나이
 
