@@ -29,4 +29,6 @@ public class C01Exception {
             System.out.println("무조건 실행되는 문구입니다.");
         }
     }
+
+    static boolean login(String password)
 }
