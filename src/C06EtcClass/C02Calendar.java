@@ -28,7 +28,7 @@ public class C02Calendar {
 
         LocalTime localTime = LocalTime.now();
         System.out.println(localTime.getHour());
-        System.out.println(localTime.getHour());
-        System.out.println(localTime.getHour());
+        System.out.println(localTime.getMinute());
+        System.out.println(localTime.getSecond());
     }
 }
