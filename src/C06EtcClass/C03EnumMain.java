@@ -31,7 +31,7 @@ class Student{
     private String name;
     private ClassGrade classGrade;
 
-    public Student(String name, String classGrade) {
+    public Student(String name, ClassGrade classGrade) {
     }
 }
 
