@@ -6,4 +6,6 @@ public class C04GenericMain {
         stchange(stArr, 0, 1);
         System.out.println(stArr, 0, 1);
     }
+
+    static
 }
