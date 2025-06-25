@@ -123,6 +123,6 @@ public class C04StreamAPi {
 
 //        3)30대인 사람들의 이름만 모아서 새로운 String배열에 담기
         String[] arr2 = studentList2.stream().filter(a->a.getAge()>=30).map(a -> a.getName()).toArray(String[]::new);
-        
+        System.out.println(Arrays.toString());
     }
 }
