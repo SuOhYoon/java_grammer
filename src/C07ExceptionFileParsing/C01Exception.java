@@ -7,6 +7,7 @@ public class C01Exception {
 //        일반적인 예외처리 방식
         System.out.println("나눗셈 프로그램입니다.");
         Scanner sc = new Scanner(System.in);
-        System.out.println();
+        System.out.println("분자를 입력해주세요.");
+        int head = Integer.parseInt()
     }
 }
