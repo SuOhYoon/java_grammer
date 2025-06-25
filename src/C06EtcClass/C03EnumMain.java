@@ -27,5 +27,8 @@ class Student{
 }
 
 class ClassGrade{
-    
+    static final String c1 = "first_grade";
+    static final String c2 = "second_grade";
+    static final String c3 = "third_grade";
+
 }
