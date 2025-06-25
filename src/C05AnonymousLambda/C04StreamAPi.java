@@ -184,6 +184,6 @@ public class C04StreamAPi {
         studentList.add(new Student("kim", 20));
         studentList.add(new Student("choi", 20));
         studentList.add(new Student("lee", 20));
-        studentList.add(new Student("kim", 20));
+        studentList.add(new Student("park", 20));
     }
 }
