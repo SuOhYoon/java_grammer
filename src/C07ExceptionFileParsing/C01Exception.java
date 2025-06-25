@@ -35,7 +35,7 @@ public class C01Exception {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
 
-        //        login(input);
+//        login(input);
 
         login2(input);
         System.out.println("환영합니다.");
