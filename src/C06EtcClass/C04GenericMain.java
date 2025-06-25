@@ -13,7 +13,7 @@ public class C04GenericMain {
         System.out.println(Arrays.toString(intArr));
     }
 
-    static<T> void stchange(String[] arr, int a, int b){
+    static<T> void allchange(String[] arr, int a, int b){
         String temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
