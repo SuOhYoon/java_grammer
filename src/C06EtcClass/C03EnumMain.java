@@ -6,4 +6,7 @@ public class C03EnumMain {
     }
 }
 
-class Student
+class Student{
+    private String name;
+    private String class;
+}
