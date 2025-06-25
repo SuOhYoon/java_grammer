@@ -30,7 +30,7 @@ public class C04GenericMain {
     }
 
     static void intchange(int[] arr, int a, int b){
-        int temp = arr[a];
+        Integer temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
     }
