@@ -118,7 +118,7 @@ public class C04StreamAPi {
         double averageAge = studentList2.stream().mapToInt(a->a.getAge()).average().getAsDouble();
         System.out.println(averageAge);
 //        2) 정렬을 통한 가장 나이 어린 사람 찾기 :
-        Student s1 = studentList2.stream().sorted(new Comparator<Student>() {
+        Student s1 = (Student) studentList2.stream().sorted(new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2) {
                 return 0;
