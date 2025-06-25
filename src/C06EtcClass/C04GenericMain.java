@@ -17,4 +17,10 @@ public class C04GenericMain {
         arr[a] = arr[b];
         arr[b] = temp;
     }
+
+    static void stchange(String[] arr, int a, int b){
+        String temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
 }
