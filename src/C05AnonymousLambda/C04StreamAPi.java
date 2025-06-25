@@ -106,6 +106,7 @@ public class C04StreamAPi {
         Arrays.stream(stArr3).forEach(System.out::println);
         String[] ans3 = Arrays.stream(stArr3).filter(a->a.length()>5).toArray(String[]::new);
 
-        
+//        streamApi실습
+//        List에 Student객체 4개 담기 : {"kim
     }
 }
