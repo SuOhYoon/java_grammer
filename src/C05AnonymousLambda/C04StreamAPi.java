@@ -190,5 +190,7 @@ public class C04StreamAPi {
         int indexNumber = Integer.parseInt(sc.nextLine());
 
         System.out.println(studentList.get(indexNumber));
+
+        
     }
 }
