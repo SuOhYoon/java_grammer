@@ -17,7 +17,7 @@ public class C04GenericMain {
 
 //        일반객체 생성시
         Person p1 = new Person("hongildong");
-        GenericPerson<Integer>p2 = new GenericPerson<Integer>(10L);
+        GenericPerson<Integer>p2 = new GenericPerson<Integer>(10);
         GenericPerson<String>p3 = new GenericPerson<String>("hong");
     }
 
