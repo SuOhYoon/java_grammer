@@ -160,5 +160,8 @@ public class C04StreamAPi {
 
 //        방법3. orElseGet() : 값이 있으면 있는 값 return, 없으면 람다 함수 실행
         System.out.println(opt2_1.orElseGet(()->new String("값이 없습니다.")));
+
+//        방법4. (가장많이 사용) orElseThrow : 값이 있으면 있는 값 return, 없으면 지정된 예외(에러) 발생
+        
     }
 }
