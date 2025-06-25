@@ -15,7 +15,7 @@ public class C01Math {
         System.out.println(Math.round(5.7));
 
 //        Math.max(a, b) : 두수의 최대값. Math.min(a, b) : 두수의 최소값
-        System.out.println(Math.max(10, 20));
+        System.out.println(Math.max(10, 20)); // 10
         System.out.println(Math.max(10, 20));
     }
 }
