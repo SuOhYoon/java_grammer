@@ -193,7 +193,7 @@ public class C04StreamAPi {
         if(studentList.size() <= indexNumber){
             optStudent = Optional.empty();
         } else {
-            optStudent = Optional.of(studentList2.get())
+            optStudent = Optional.of(studentList2.get(indexNumber));
         }
         System.out.println(optStudent.);
 
