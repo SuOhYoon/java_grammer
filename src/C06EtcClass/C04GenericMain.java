@@ -7,6 +7,9 @@ public class C04GenericMain {
         String[] stArr = {"java", "python", "C"};
         stchange(stArr, 0, 1);
         System.out.println(Arrays.toString(stArr));
+
+        int[] intArr = {10, 20, 30};
+        intchange(intArr, 0, 1);
     }
 
     static void stchange(String[] arr, int a, int b){
