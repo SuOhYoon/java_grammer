@@ -36,8 +36,8 @@ public class C01Exception {
         String input = sc.nextLine();
 
         System.out.println("환영합니다.");
-
-        login2(//        login(input);
+        //        login(input);
+        login2(input);
     }
 
 //    throws키워드를 통해 예외를 위임.
