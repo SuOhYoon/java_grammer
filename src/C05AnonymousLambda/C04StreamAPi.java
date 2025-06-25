@@ -146,6 +146,7 @@ public class C04StreamAPi {
         Optional<String> opt3 = Optional.ofNullable("hello"); // 값이 있는 Optional객체 생
 
 //        Optional 객체 처리 방법 4가지
+//        방법1. isPresent()로 확인 후 get()
         
     }
 }
