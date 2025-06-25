@@ -13,6 +13,6 @@ public class C02Calendar {
         System.out.println(myCalendar.get(Calendar.DAY_OF_MONTH)); // 날짜
         System.out.println(myCalendar.get(Calendar.HOUR_OF_DAY)); // 날짜
         System.out.println(myCalendar.get(Calendar.MINUTE)); // 날짜
-        System.out.println(myCalendar.get(Calendar.)); // 날짜
+        System.out.println(myCalendar.get(Calendar.SECOND)); // 날짜
     }
 }
