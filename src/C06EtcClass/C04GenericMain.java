@@ -29,7 +29,7 @@ public class C04GenericMain {
         arr[b] = temp;
     }
 
-    static void intchange(int[] arr, int a, int b){
+    static void intchange(Integer[] arr, int a, int b){
         Integer temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
