@@ -19,7 +19,7 @@ public class C04GenericMain {
     }
 
     static void intchange(int[] arr, int a, int b){
-        String temp = arr[a];
+        int temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
     }
