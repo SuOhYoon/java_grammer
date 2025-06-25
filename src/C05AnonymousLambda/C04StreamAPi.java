@@ -128,7 +128,7 @@ public class C04StreamAPi {
 //        Optional객체 : 특정객체에 값이 없을지도 모른다는것을 명시적으로 표현
         Optional<String> opt1 = Optional.ofNullable(null);
         String st1 = null;
-        if(st1=null){
+        if(st1!=null){
             
         }
     }
