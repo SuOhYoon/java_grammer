@@ -150,7 +150,7 @@ public class C04StreamAPi {
         if(opt2_1.isPresent()){
             System.out.println(opt2_1.get());
         } else {
-            
+            System.out.println(opt2_1.get());
         }
     }
 }
