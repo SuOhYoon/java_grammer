@@ -38,7 +38,7 @@ public class C01Exception {
     }
 
 //    throws키워드를 통해 예외를 위임.
-//    다만, unchecked예외에서는 예외처리가 강제가 아니므로, throws가 큰의미
+//    다만, unchecked예외에서는 예외처리가 강제가 아니므로, throws가 큰의미는 없음.
     static boolean login(String password) throws IllegalArgumentException{
         if(password.equals("1234")){
             return true;
