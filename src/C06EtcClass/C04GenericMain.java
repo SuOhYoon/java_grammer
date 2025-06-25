@@ -42,17 +42,17 @@ public class C04GenericMain {
 }
 
 class GenericPerson<T>{
-    private String value;
+    private T value;
 
-    public GenericPerson(String value) {
+    public GenericPerson(T value) {
         this.value = value;
     }
 
-    public String getValue() {
+    public T getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(T value) {
         this.value = value;
     }
 }
