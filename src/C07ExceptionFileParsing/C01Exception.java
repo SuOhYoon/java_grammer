@@ -22,8 +22,9 @@ public class C01Exception {
         } catch (NumberFormatException e){
             System.out.println("문자를 입력하시면 안됩니다.");
             e.printStackTrace();
+//            Exception은 모든 예외의 초상 클래스
         } catch (Exception e){
-            
+            System.out.println("예상치 못한 에러가 발생했습니다.");
         }
     }
 }
