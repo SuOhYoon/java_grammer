@@ -125,6 +125,8 @@ public class C04StreamAPi {
         String[] arr2 = studentList2.stream().filter(a->a.getAge()>=30).map(a -> a.getName()).toArray(String[]::new);
         System.out.println(Arrays.toString(arr2));
 
-//        Optional객체 : 특정객체에 값이 없을지도 모른다는것을 명시적으로 표현    
+//        Optional객체 : 특정객체에 값이 없을지도 모른다는것을 명시적으로 표현
+        Optional<String> opt1 = Optional.ofNullable(null);
+        String st1 = null;
     }
 }
