@@ -163,6 +163,5 @@ public class C04StreamAPi {
 
 //        방법4. (가장많이 사용) orElseThrow : 값이 있으면 있는 값 return, 없으면 지정된 예외(에러) 발생
         System.out.println(opt2_1.orElseThrow(()->new RuntimeException("값이 없습니다.")));
-        
     }
 }
