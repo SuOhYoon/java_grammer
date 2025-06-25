@@ -133,6 +133,6 @@ public class C04StreamAPi {
         } else {
             System.out.println("값 없음");
         }
-        Optional
+        Optional<String> opt1 = Optional.ofNullable()
     }
 }
