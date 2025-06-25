@@ -14,7 +14,7 @@ public class C04GenericMain {
     }
 
     static<T> void allchange(T[] arr, int a, int b){
-        String temp = arr[a];
+        T temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
     }
