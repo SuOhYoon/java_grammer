@@ -31,6 +31,9 @@ public class C01Exception {
         System.out.println("로그인을 위한 비밀번호를 입력해주세요");
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
+        if(){
+            
+        }
         login(input)
 
     }
