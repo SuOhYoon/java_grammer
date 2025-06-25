@@ -18,6 +18,7 @@ public class C04GenericMain {
 //        일반객체 생성시
         Person p1 = new Person("hongildong");
         GenericPerson<Integer>p2 = new GenericPerson<Integer>(10);
+        GenericPerson<Integer>p2 = new GenericPerson<Integer>(10);
     }
 
 //    제네릭메서드는 반환타입 왼족에 <T>라고 선언
