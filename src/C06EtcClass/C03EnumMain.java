@@ -39,5 +39,5 @@ class Student{
 //}
 
 enum ClassGrade{
-    First_Grade, SECOND_GRADE, THIRD_GRADE
+    FIRST_GRADE, SECOND_GRADE, THIRD_GRADE
 }
