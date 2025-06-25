@@ -114,9 +114,8 @@ public class C04StreamAPi {
         studentList2.add(new Student("lee", 35));
         studentList2.add(new Student("park", 22));
 
-        Stream<Student> studentStream = studentList2.stream();
 //        1)모든 객체의 평균나이
-        
+
 
 
 
