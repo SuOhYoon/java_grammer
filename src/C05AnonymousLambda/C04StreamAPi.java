@@ -173,7 +173,7 @@ public class C04StreamAPi {
         if(age.isPresent()){
             System.out.println(age.getAsDouble());
         } else {
-            throw new RuntimeException();
+            throw new such();
         }
 
     }
