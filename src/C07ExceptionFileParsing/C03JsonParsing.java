@@ -47,8 +47,8 @@ public class C03JsonParsing {
             studentList.add(s1);
         }
         System.out.println(studentList);
-        
 
+        
     }
 }
 
