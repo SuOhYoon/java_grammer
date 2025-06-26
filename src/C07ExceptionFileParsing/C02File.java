@@ -16,7 +16,8 @@ public class C02File {
         BufferedReader br2 = new BufferedReader(new FileReader("src/C07ExceptionFileParsing/test.txt"));
         String line = br2.readLine();
         while(line!=null){
-            
+            System.out.println(line);
+            line = br2.readLine();
         }
 
 //
