@@ -62,7 +62,7 @@ public class C01Exception {
         } else if(password == null) {
 //            예외를 강제 발생시킴으로서 이시점에 해당 메서드 강제 종료
 //            예외는 기본적으로 해당메서드를 호출한 쪽으로 전파
-            throw new InvalidParameterException("비밀번호를 잘못입력하셨습니다.");
+            throw new InvalidParameterException("비밀번호를 입력하지 않으셨습니다.");
         } else {
             throw new IllegalArgumentException("비밀번호를 잘못입력하셨습니다.");
         }
