@@ -19,6 +19,8 @@ public class C02File {
             System.out.println(line);
             line = br2.readLine();
         }
-//
+
+//        파일에서 일기 : NIO패키지
+        
     }
 }
