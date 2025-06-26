@@ -43,7 +43,7 @@ public class C03JsonParsing {
         JsonNode jsonNodes2 = o1.readTree(st2);
         Map<String, String> mymap3 = new HashMap<>();
         List<Student> students = new ArrayList<>();
-        list.add(new Student())
+        students.add(new Student())
 
     }
 }
