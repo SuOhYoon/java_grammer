@@ -21,7 +21,7 @@ public class C01Exception {
 //            int result1 = head / tail;
 //            System.out.println("두 수를 나눈 결과값은 " + result1);
 //        } catch (ArithmeticException e) { // 예외처리를 분기 처리
-//            System.out.println("\nXXXXXXXXXX 0으로 나눗셈이 가능해? 정신 차려 XXXXXXXXXX\n");
+//            System.out.println("0으로 나눌 수 없습니다.");
 ////            아래와 같은 방식으로 시스템 로그를 기록.
 //            e.printStackTrace();
 //            System.out.println(e.getMessage()); // 메세지만 간단히 출력
