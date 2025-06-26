@@ -16,6 +16,7 @@ public class C03JsonParsing {
         Path filePath = Paths.get("src/C07ExceptionFileParsing/myjson1.json");
         String st1 = Files.readString(filePath);
         Map<String, String> myMap = o1.readValue(st1, Map.class);
+        
 
     }
 }
