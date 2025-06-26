@@ -104,7 +104,7 @@ public class C01Exception {
             String text = Files.readString(filePath);
         } catch (IOException e)
         {
-//           
+            System.out.println();
             throw new RuntimeException(e);
         }
         return filePath.toString();
