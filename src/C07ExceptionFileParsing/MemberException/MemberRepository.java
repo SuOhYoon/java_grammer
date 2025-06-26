@@ -8,7 +8,7 @@ import java.util.List;
 public class MemberRepository {
     static List<Member> memberList = new ArrayList<>();
     public void register(String name, String email, String password){
-
+        
     }
     public Member
 }
