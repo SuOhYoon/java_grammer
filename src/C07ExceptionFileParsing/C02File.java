@@ -9,6 +9,9 @@ public class C02File {
 //        콘솔창에 입출력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String input = br.readLine();
+        System.out.println(input);
 
+//        파일에서 읽기
+        BufferedReader br2 = new BufferedReader()
     }
 }
