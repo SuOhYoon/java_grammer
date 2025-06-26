@@ -102,7 +102,8 @@ public class C01Exception {
 //        방법1.
         try {
             String text = Files.readString(filePath);
-        } catch (IOException e) {
+        } catch (IOException e)
+        {
 //           
             throw new RuntimeException(e);
         }
