@@ -414,9 +414,7 @@ public class C01Exception {
 ... (2줄 남음)
     접기
     message.txt
-5KB
-﻿
-        package C07ExceptionFileParsing;
+package C07ExceptionFileParsing;
 
 import java.io.IOException;
 import java.nio.file.Files;
