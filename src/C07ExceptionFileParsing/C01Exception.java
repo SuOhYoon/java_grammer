@@ -109,7 +109,8 @@ public class C01Exception {
 ////            보통은 코드중지목적으로 unchecked exception으로 다시 throw.
 //            throw new RuntimeException("입출력 과정에서 예외가 발생했습니다.");
 //        }
-//        방법2. 현재 메서드를 호출하는 쪽으로 예외를 위임(throws
+//        방법2. 현재 메서드를 호출하는 쪽으로 예외를 위임(throws).
+        
         return filePath.toString();
     }
 }
