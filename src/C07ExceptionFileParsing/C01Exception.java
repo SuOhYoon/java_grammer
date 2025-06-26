@@ -90,9 +90,4 @@ public class C01Exception {
             throw new SQLException("비밀번호를 잘못입력하셨습니다.");
         }
     }
-
-    static String fileRead(String path){
-        Path filePath = Paths.get(path);
-        
-    }
 }
