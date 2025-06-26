@@ -22,6 +22,6 @@ public class C02File {
         }
 
 //        파일에서 일기 : NIO패키지
-        Path filePath = ""
+        Path filePath = "src/C07ExceptionFileParsing/test.txt"
     }
 }
