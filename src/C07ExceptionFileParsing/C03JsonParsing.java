@@ -34,7 +34,7 @@ public class C03JsonParsing {
         Map<String, String>myMap2 = new HashMap<>();
         myMap2.put("id", jsonNodes.get("id").asText());
         myMap2.put("name", jsonNodes.get("name").asText());
-        myMap2.put("classNumber", jsonNodes.get("id").asText());
+        myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
         myMap2.put("id", jsonNodes.get("id").asText());
 
     }
