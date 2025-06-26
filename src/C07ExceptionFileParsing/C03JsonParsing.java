@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,6 +42,7 @@ public class C03JsonParsing {
 //        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
         JsonNode jsonNodes2 = o1.readTree(st2);
         Map<String, String> mymap3 = new HashMap<>();
+        List<Student> students = new ArrayList<>();
         mymap3.put("")
 
     }
