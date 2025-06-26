@@ -48,7 +48,7 @@ public class C03JsonParsing {
         myMap3.put("city", jsonNodes.get("city").asText());
 
         List<Student> students = new ArrayList<>();
-        students.add(new Student());
+        students.add(new Student(myMap3.get(1)));
 
     }
 }
