@@ -64,7 +64,6 @@ public class C01Exception {
         } else {
             throw new IllegalArgumentException("비밀번호를 잘못입력하셨습니다.");
         }
-        }
     }
 
     static boolean login2(String password) throws SQLException {
