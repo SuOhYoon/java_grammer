@@ -32,9 +32,7 @@ public class C03JsonParsing {
 //        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
         JsonNode jsonNodes = o1.readTree(st1);
         Map<String, String>myMap2 = new HashMap<>();
-        for (JsonNode j : jsonNodes){
-            
-        }
+        myMap2.put("id", jsonNodes.get("id").asText())
 
     }
 }
