@@ -26,7 +26,7 @@ public class C01Exception {
 //            e.printStackTrace();
 //            System.out.println(e.getMessage()); // 메세지만 간단히 출력
 //        } catch (NumberFormatException e) {
-//            System.out.println("\nXXXXXXXXXX 문자를 입력하고 있네. 정신 차려 XXXXXXXXXX\n");
+//            System.out.println("문자를 입력할 수 없습니다.");
 //            e.printStackTrace();
 //        } catch (Exception e) {
 //            System.out.println("\nXXXXXXXXXX 아니 뭘 했길래 이걸 출력하게 만드냐. 정신 차려 XXXXXXXXXX\n");
