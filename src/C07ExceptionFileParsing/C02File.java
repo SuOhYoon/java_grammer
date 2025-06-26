@@ -7,5 +7,7 @@ public class C02File {
     public static void main(String[] args) {
 //        콘솔창에 입출력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String input = br.readLine();
+        
     }
 }
