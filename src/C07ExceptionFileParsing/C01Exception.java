@@ -65,7 +65,7 @@ public class C01Exception {
 //            예외는 기본적으로 해당메서드를 호출한 쪽으로 전파
             throw new IllegalArgumentException("비밀번호를 잘못입력하셨습니다.");
         } else {
-            throw new NoSuchElementException("그러한 요소 없습니다.");
+            throw new NoSuchElementException("그러한 비밀번호 없습니다.");
         }
     }
 
