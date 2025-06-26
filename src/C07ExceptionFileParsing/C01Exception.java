@@ -2,10 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.NoSuchElementException;윤수오
-        publicguard_
-
-package C07ExceptionFileParsing;
+import java.util.NoSuchElempackage C07ExceptionFileParsing;
 
 import java.io.IOException;
 import java.nio.file.Files;
