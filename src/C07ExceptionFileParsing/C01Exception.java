@@ -1,6 +1,7 @@
 package C07ExceptionFileParsing;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -97,7 +98,11 @@ public class C01Exception {
 
     static String fileRead(String path){
         Path filePath = Paths.get(path);
-        String text = Files.readString(filePath);
+        try {
+            String text = Files.readString(filePath);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         return filePath.toString();
     }
 }
