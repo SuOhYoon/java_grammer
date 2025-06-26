@@ -103,7 +103,7 @@ public class C01Exception {
         try {
             String text = Files.readString(filePath);
         } catch (IOException e) {
-//            IOE
+//           
             throw new RuntimeException(e);
         }
         return filePath.toString();
