@@ -48,6 +48,7 @@ public class C01Exception {
 
 //        checked exception 은 예외처리를 위임받게 되면, 반드시 예외처리를 하거나, 다시 throws 해야함.
         fileRead("/Users/suohyoon/Downloads/SQLD_예상문제(기출21회참고).pdf");
+        System.out.println();
 
 //        넘겨 받아서 처리하는 경우
         try {
