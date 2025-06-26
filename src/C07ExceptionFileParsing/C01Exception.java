@@ -81,7 +81,7 @@ public class C01Exception {
 //            }
 
 
-            throw new SQLException("비밀번호를 잘 못 입력1");
+            throw new SQLException("비밀번호를 잘못입력하셨습니다.");
         }
     }
 }
