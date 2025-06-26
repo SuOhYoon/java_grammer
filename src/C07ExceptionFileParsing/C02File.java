@@ -16,7 +16,7 @@ public class C02File {
         String input = br.readLine();
         System.out.println(input);
 
-//        파일에서 읽기 : 
+//        파일에서 읽기 : IO패키지
         BufferedReader br2 = new BufferedReader(new FileReader("src/C07ExceptionFileParsing/test.txt"));
         String line = br2.readLine();
         while(line!=null){
@@ -34,5 +34,8 @@ public class C02File {
 //        for(String l : st2){
 //            System.out.println(l);
 //        }
+
+//        파일 쓰기
+        
     }
 }
