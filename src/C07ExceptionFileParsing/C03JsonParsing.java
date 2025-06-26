@@ -22,7 +22,7 @@ public class C03JsonParsing {
         Student s1 = o1.readValue(st1, Student.class);
         System.out.println(s1);
 
-//        사용법2. 트리구조의 JSON
+//        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
     }
 }
 
