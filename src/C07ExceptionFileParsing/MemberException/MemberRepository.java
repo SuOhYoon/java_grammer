@@ -16,6 +16,6 @@ public class MemberRepository {
     }
 
     public Member findById(long id){
-        return new Member()
+        return new Member().getName()
     }
 }
