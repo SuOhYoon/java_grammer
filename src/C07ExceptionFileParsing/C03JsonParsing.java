@@ -47,6 +47,7 @@ public class C03JsonParsing {
             Student s1 = o1.readValue(j.toString(), Student.class);
             studentList.add(s1);
         }
+        System.out.println(studentList);
 
 //        JsonNode jsonNodes2 = o1.readTree(st2);
 //        Map<String, String> myMap3 = new HashMap<>();
