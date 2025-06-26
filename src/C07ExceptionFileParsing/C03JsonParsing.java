@@ -36,6 +36,13 @@ class Student {
         this.city = city;
     }
 
+    public student(int id, String name, String classNumber, String city) {
+        this.id = id;
+        this.name = name;
+        this.classNumber = classNumber;
+        this.city = city;
+    }
+
     public int getId() {
         return id;
     }
