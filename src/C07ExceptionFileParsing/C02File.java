@@ -32,7 +32,7 @@ public class C02File {
 //        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
         List<String> st2 = Files.readAllLines(filePath);
         for(String l : st2){
-            
+            System.out.println();
         }
     }
 }
