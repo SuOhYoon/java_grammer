@@ -31,7 +31,7 @@ public class C03JsonParsing {
 //        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
 //        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
         JsonNode jsonNodes = o1.readTree(st1);
-        Map<String, String>myMap2 = new HashMap<>();
+        Map<String, String> myMap2 = new HashMap<>();
         myMap2.put("id", jsonNodes.get("id").asText());
         myMap2.put("name", jsonNodes.get("name").asText());
         myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
@@ -40,7 +40,8 @@ public class C03JsonParsing {
 
 //        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
         JsonNode jsonNodes2 = o1.readTree(st2);
-        Map<String, String> mymap
+        Map<String, String> mymap3 = new HashMap<>();
+        mymap3.put("")
 
     }
 }
