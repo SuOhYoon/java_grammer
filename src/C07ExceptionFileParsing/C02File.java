@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -25,6 +26,8 @@ public class C02File {
 //        파일에서 일기 : NIO패키지
         Path filePath = Paths.get("src/C07ExceptionFileParsing/test.txt");
 //        readString : 문자열전체를 통째로 read
-        
+        String st1 = Files.readString(filePath);
+        System.out.println(st1);
+        System.out.println(st1);
     }
 }
