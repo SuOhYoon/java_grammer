@@ -16,6 +16,6 @@ public class MemberRepository {
     }
 
     public Member findById(){
-
+        
     }
 }
