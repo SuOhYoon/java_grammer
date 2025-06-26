@@ -49,7 +49,7 @@ public class C03JsonParsing {
         System.out.println(studentList);
 
 //        json 직렬화 : 객체 -> json 변환. writeValueAsString(객체)
-        
+        String returnSt = 
     }
 }
 
