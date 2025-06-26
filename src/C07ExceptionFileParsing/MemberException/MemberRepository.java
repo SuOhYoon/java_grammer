@@ -15,7 +15,7 @@ public class MemberRepository {
         member.setPassword(password);
     }
 
-    public Member findById(){
+    public Member findById(long id){
         
     }
 }
