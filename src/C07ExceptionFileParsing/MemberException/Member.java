@@ -1,40 +1,47 @@
 package C07ExceptionFileParsing.MemberException;
 
 public class Member {
-    static long id;
-    String name;
-    String email;
-    String password;
+    private static Long staticId=0L;
+    private Long id;
+    private String name;
+    private String email;
+    private String password;
 
-    public static long getId() {
-        return id;
+    public Member(String name, String email, String password) {
+        this.id = staticId;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        staticId++;
     }
 
-    public static void setId(long id) {
-        Member.id = id;
+    public static Long getStaticId() {
+        return staticId;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
