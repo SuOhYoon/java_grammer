@@ -10,7 +10,6 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class C03JsonParsing {
     public static void main(String[] args) throws IOException {
@@ -32,7 +31,7 @@ public class C03JsonParsing {
 //        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
 //        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
         JsonNode jsonNodes = o1.readTree(st1);
-        Map<String, String>myMap2 = new TreeMap<>();
+        Map<String, String>myMap2 = new HashMap<>();
         myMap2.put("id", jsonNodes.get("id").asText());
         myMap2.put("name", jsonNodes.get("name").asText());
         myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
