@@ -110,7 +110,7 @@ public class C01Exception {
 //            throw new RuntimeException("입출력 과정에서 예외가 발생했습니다.");
 //        }
 //        방법2. 현재 메서드를 호출하는 쪽으로 예외를 위임(throws).
-        String text = Files.readString()
+        String text = Files.readString(filePath);
         return filePath.toString();
     }
 }
