@@ -31,6 +31,8 @@ public class C02File {
         System.out.println(st1);
 //        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
         List<String> st2 = Files.readAllLines(filePath);
-        for
+        for(String l : st2){
+            
+        }
     }
 }
