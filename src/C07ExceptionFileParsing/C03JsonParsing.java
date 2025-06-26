@@ -21,6 +21,8 @@ public class C03JsonParsing {
 
         Student s1 = o1.readValue(st1, Student.class);
         System.out.println(s1);
+
+//        사용법2.
     }
 }
 
