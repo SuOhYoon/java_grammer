@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.Map;
 
 public class C03JsonParsing {
@@ -22,8 +23,10 @@ public class C03JsonParsing {
         Student s1 = o1.readValue(st1, Student.class);
         System.out.println(s1);
 
+        List<Student> studentList = o1.
+
 //        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
-        
+
     }
 }
 
