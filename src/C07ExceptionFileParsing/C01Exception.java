@@ -47,7 +47,7 @@ public class C01Exception {
 //        login(input);
 
 //        checked exception의 경우
-//        1)호출받는 쪽에서 반드시 예외처리를 하거나
+//        1)호출받는 쪽에서 반드시 예외처리 후 unchecked exception 예외 발생. 호출하는쪽에서 예외처리하여 사용자에게 적절한 ㅡessage 전달
         try {
             String result = fileRead("src/C07ExceptionFileParsing/test.txt");
         }catch (RuntimeException e){
