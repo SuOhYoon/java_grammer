@@ -35,5 +35,5 @@ class student {
         this.city = city;
     }
 
-
+    
 }
