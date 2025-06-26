@@ -48,9 +48,10 @@ public class C01Exception {
 
 //        checked exception의 경우
 //        1)호출받는 쪽에서 반드시 예외처리를 하거나
+        String result = null;
         try {
-            String result = fileRead("src/C07ExceptionFileParsing/test.txt");
-        }catch (RuntimeException e){
+            result = fileRead("src/C07ExceptionFileParsing/test.txt");
+        } catch (RuntimeException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
