@@ -50,7 +50,7 @@ public class C01Exception {
 
 //        checked exception의 경우
 //        1) 호출받는 쪽에서 반드시 예외처리를 하거나
-//        2) throws를 
+//        2) throws를 통해서 checked
         try {
             fileRead("/Users/suohyoon/Downloads/SQLD_예상문제(기출21회참고).pdf");
         } catch (IOException e) {
