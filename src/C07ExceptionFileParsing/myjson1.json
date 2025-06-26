@@ -8,11 +8,4 @@
   "name" : "hong1",
   "classNumber" : "1",
   "city" : "seoul"
-},
-  {
-    "id": 1,
-    "name" : "hong1",
-    "classNumber" : "1",
-    "city" : "seoul"
-  }
-]
+}
