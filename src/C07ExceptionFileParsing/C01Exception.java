@@ -29,7 +29,7 @@ public class C01Exception {
 //            System.out.println("문자를 입력할 수 없습니다.");
 //            e.printStackTrace();
 //        } catch (Exception e) {
-//            System.out.println("\nXXXXXXXXXX 아니 뭘 했길래 이걸 출력하게 만드냐. 정신 차려 XXXXXXXXXX\n");
+//            System.out.println("예상치 않은 오류가 발생했습니다.");
 //            e.printStackTrace();
 //        } finally {
 ////            예외가 발생하던 아니던 무조건 실행시키고 싶을때 사용
