@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.file.Path;
 
 public class C02File {
     public static void main(String[] args) throws IOException {
@@ -21,6 +22,6 @@ public class C02File {
         }
 
 //        파일에서 일기 : NIO패키지
-        
+        Path filePath = ""
     }
 }
