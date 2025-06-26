@@ -44,7 +44,7 @@ public class C03JsonParsing {
         List<Student> studentList = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
             System.out.println(j);
-            Student s1 = new Student(j.get("id").asText(), j.get("name"));
+            Student s1 = o1.readValue();
             studentList.add(s1);
         }
 
