@@ -14,5 +14,6 @@ public class MemberRepository {
         member.setEmail(email);
         member.setPassword(password);
     }
+    
     public Member
 }
