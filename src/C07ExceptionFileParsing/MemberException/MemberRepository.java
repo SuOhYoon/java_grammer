@@ -10,7 +10,7 @@ public class MemberRepository {
 
     Member member = new Member();
     public void register(String name, String email, String password){
-        
+        member.setName(name);
     }
     public Member
 }
