@@ -20,6 +20,7 @@ public class C03JsonParsing {
         System.out.println(myMap);
 
         Student s1 = o1.readValue(st1, Student.class);
+        System.out.println(s1);
     }
 }
 
