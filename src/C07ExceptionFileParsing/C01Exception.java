@@ -97,7 +97,7 @@ public class C01Exception {
 
     static String fileRead(String path){
         Path filePath = Paths.get(path);
-        String text = Files.readString()
+        String text = Files.readString(filePath);
         return filePath.toString();
     }
 }
