@@ -14,7 +14,11 @@ public class C02File {
 
 //        파일에서 읽기
         BufferedReader br2 = new BufferedReader(new FileReader("src/C07ExceptionFileParsing/test.txt"));
+        String line = br2.readLine();
+        while(line!=null){
+            
+        }
 
-//     
+//
     }
 }
