@@ -28,5 +28,10 @@ class student {
     private String classNumber;
     private String city;
 
-
+    public student(int id, String name, String classNumber, String city) {
+        this.id = id;
+        this.name = name;
+        this.classNumber = classNumber;
+        this.city = city;
+    }
 }
