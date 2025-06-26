@@ -41,6 +41,7 @@ public class C03JsonParsing {
         Path filePath2 = Paths.get("src/C07ExceptionFileParsing/myjson2.json");
         String st2 = Files.readString(filePath2);
         JsonNode jsonNodes2 = o1.readTree(st2);
+        List<Student> studentList = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
             System.out.println(j);
         }
