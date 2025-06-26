@@ -15,7 +15,7 @@ public class C03JsonParsing {
 //        사용법 : 클래스명 객체명 = o1.readValue(문자열, 클래스명);
         Path filePath = Paths.get("src/C07ExceptionFileParsing/myjson1.json");
         String st1 = Files.readString(filePath);
-        Map<String, String> myMap = o1.readValue(st1);
+        Map<String, String> myMap = o1.readValue(st1, Map.class);
 
     }
 }
