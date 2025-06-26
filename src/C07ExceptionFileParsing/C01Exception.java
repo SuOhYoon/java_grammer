@@ -47,6 +47,7 @@ public class C01Exception {
 //        login(input);
 
 //        checked exception 은 예외처리를 위임받게 되면, 반드시 예외처리를 하거나, 다시 throws 해야함.
+        fileRead("")
 
 //        넘겨 받아서 처리하는 경우
         try {
