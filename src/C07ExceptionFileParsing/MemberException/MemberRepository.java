@@ -16,6 +16,6 @@ public class MemberRepository {
     }
 
     public Member findById(long id){
-        Member member1 = new Member();
+        return new Member()
     }
 }
