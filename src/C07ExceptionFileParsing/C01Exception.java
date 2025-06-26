@@ -47,9 +47,10 @@ public class C01Exception {
 //        login(input);
 
 //        checked exception의 경우
-//        1)호출받는 쪽에서 반드시 예외처리 후 unchecked exception 예외 발생. 호출하는쪽에서 예외처리하여 사용자에게 적절한 message 전달
+//        1)호출받는 쪽에서 예외처리 후 unchecked exception 예외발생. 호출하는쪽에서 예외처리하여 사용자에게 적절한 message전달
         try {
             String result = fileRead("src/C07ExceptionFileParsing/test.txt");
+            System.out.println(result);
         }catch (RuntimeException e){
             System.out.println(e.getMessage());
             e.printStackTrace();
@@ -61,7 +62,7 @@ public class C01Exception {
 //        } catch (IOException e) {
 //            throw new RuntimeException("입출력 과정에서 예외가 발생 했습니다.");
 //        }
-        System.out.println(result);
+//        System.out.println(result);
     }
 
     //    throws키워드를 통해 예외를 위임.
@@ -96,5 +97,6 @@ public class C01Exception {
 //        String text = Files.readString(filePath);
         return text;
     }
+
 
 }
