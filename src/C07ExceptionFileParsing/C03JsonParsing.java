@@ -29,7 +29,7 @@ class Student {
     private String classNumber;
     private String city;
 
-    public student() {
+    public Student() {
     }
 
     public Student(int id, String name, String classNumber, String city) {
