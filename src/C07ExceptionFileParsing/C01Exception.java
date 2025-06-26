@@ -102,7 +102,7 @@ public class C01Exception {
 //        방법1. checked를 try catch한 이후에 unchecked예외를 다시 throw
         String text = null;
         try {
-            String text = Files.readString(filePath);
+            text = Files.readString(filePath);
         } catch (IOException e)
         {
 //            System.out.println("입출력 과정에서 예외가 발생했습니다.");
