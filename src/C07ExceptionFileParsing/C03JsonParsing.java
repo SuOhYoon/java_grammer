@@ -27,6 +27,7 @@ public class C03JsonParsing {
         String st2 = Files.readString(filePath);
         List<Student> studentList = o1.readValue(st2, Map.class);
 //        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
+//        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
 
     }
 }
