@@ -25,6 +25,7 @@ public class C03JsonParsing {
 }
 
 // 실제 값의 setting은 private이라 할지라도 직접 접근하여 setting.(reflection 기술을 활용하여 접근)
+// objectmapper는 
 class Student {
     private int id;
     private String name;
