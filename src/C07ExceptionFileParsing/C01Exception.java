@@ -58,9 +58,10 @@ public class C01Exception {
     static boolean login(String password) throws IllegalArgumentException {
         if (password.equals("1234")) {
             return true;
-        } else if(password == null){
+        } else if(password == null) {
 //            예외를 강제 발생시킴으로서 이시점에 해당 메서드 강제 종료
 //            예외는 기본적으로 해당메서드를 호출한 쪽으로 전파
+        } else {
             throw new IllegalArgumentException("비밀번호를 잘못입력하셨습니다.");
         }
     }
