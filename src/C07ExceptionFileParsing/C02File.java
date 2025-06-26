@@ -1,6 +1,7 @@
 package C07ExceptionFileParsing;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -12,7 +13,7 @@ public class C02File {
         System.out.println(input);
 
 //        파일에서 읽기
-        BufferedReader br2 = new BufferedReader(new InputStreamReader(System.in));
-        
+        BufferedReader br2 = new BufferedReader(new FileReader(System.in));
+
     }
 }
