@@ -104,7 +104,7 @@ public class C01Exception {
             String text = Files.readString(filePath);
         } catch (IOException e)
         {
-            System.out.println();
+            System.out.println("입출력 과정에서 예외가 발생했습니다.");
             throw new RuntimeException(e);
         }
         return filePath.toString();
