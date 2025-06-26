@@ -12,6 +12,7 @@ public class C02File {
         System.out.println(input);
 
 //        파일에서 읽기
-        BufferedReader br2 = new BufferedReader()
+        BufferedReader br2 = new BufferedReader(new InputStreamReader(System.in));
+        
     }
 }
