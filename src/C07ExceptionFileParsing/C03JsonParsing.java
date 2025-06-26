@@ -35,5 +35,19 @@ class student {
         this.city = city;
     }
 
-    
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getClassNumber() {
+        return classNumber;
+    }
+
+    public String getCity() {
+        return city;
+    }
 }
