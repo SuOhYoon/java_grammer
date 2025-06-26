@@ -25,5 +25,6 @@ public class C02File {
 //        파일에서 일기 : NIO패키지
         Path filePath = Paths.get("src/C07ExceptionFileParsing/test.txt");
 //        readString : 문자열전체를 통째로 read
+        
     }
 }
