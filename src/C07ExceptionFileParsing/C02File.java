@@ -28,6 +28,6 @@ public class C02File {
 //        readString : 문자열전체를 통째로 read
         String st1 = Files.readString(filePath);
         System.out.println(st1);
-        System.out.println(st1);
+//        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
     }
 }
