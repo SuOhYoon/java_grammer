@@ -30,6 +30,6 @@ public class C02File {
         String st1 = Files.readString(filePath);
         System.out.println(st1);
 //        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
-        List<String> st2 = Files.readAllLines()
+        List<String> st2 = Files.readAllLines(filePath);
     }
 }
