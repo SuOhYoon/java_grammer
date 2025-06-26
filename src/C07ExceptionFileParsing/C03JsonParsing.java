@@ -26,5 +26,7 @@ class student {
     private int id;
     private String name;
     private String classNumber;
-    private
+    private String city;
+
+
 }
