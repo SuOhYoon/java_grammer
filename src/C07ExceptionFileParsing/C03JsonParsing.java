@@ -40,7 +40,10 @@ public class C03JsonParsing {
 //        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
         Path filePath2 = Paths.get("src/C07ExceptionFileParsing/myjson2.json");
         String st2 = Files.readString(filePath2);
-        JsonNode jsonNdode
+        JsonNode jsonNodes2 = o1.readTree(st2);
+        for(JsonNode j : jsonNodes2){
+            System.out.println(j);
+        }
 
 //        JsonNode jsonNodes2 = o1.readTree(st2);
 //        Map<String, String> myMap3 = new HashMap<>();
