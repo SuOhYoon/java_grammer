@@ -34,7 +34,7 @@ public class C03JsonParsing {
         Map<String, String>myMap2 = new HashMap<>();
         for (JsonNode j : jsonNodes){
             for(JsonNode j1 : j){
-                
+                myMap2.put("id", )
             }
         }
 
