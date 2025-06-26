@@ -49,7 +49,11 @@ public class C01Exception {
 //        login(input);
 
 //        checked exception 은 예외처리를 위임받게 되면, 반드시 예외처리를 하거나, 다시 throws 해야함.
-        fileRead("/Users/suohyoon/Downloads/SQLD_예상문제(기출21회참고).pdf");
+        try {
+            fileRead("/Users/suohyoon/Downloads/SQLD_예상문제(기출21회참고).pdf");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println();
 
 //        넘겨 받아서 처리하는 경우
