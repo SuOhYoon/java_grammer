@@ -19,7 +19,6 @@ public class C02File {
             System.out.println(line);
             line = br2.readLine();
         }
-
 //
     }
 }
