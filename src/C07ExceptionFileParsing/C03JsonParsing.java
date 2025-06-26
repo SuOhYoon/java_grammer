@@ -40,15 +40,15 @@ public class C03JsonParsing {
         System.out.println(myMap2);
 
 //        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
-        JsonNode jsonNodes2 = o1.readTree(st2);
-        Map<String, String> myMap3 = new HashMap<>();
-        myMap3.put("id", jsonNodes.get("id").asText());
-        myMap3.put("name", jsonNodes.get("name").asText());
-        myMap3.put("classNumber", jsonNodes.get("classNumber").asText());
-        myMap3.put("city", jsonNodes.get("city").asText());
-
-        List<Student> students = new ArrayList<>();
-        students.add(new Student(myMap3.get()));
+//        JsonNode jsonNodes2 = o1.readTree(st2);
+//        Map<String, String> myMap3 = new HashMap<>();
+//        myMap3.put("id", jsonNodes.get("id").asText());
+//        myMap3.put("name", jsonNodes.get("name").asText());
+//        myMap3.put("classNumber", jsonNodes.get("classNumber").asText());
+//        myMap3.put("city", jsonNodes.get("city").asText());
+//
+//        List<Student> students = new ArrayList<>();
+//        students.add(new Student(myMap3.get()));
 
     }
 }
