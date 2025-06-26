@@ -34,4 +34,6 @@ class student {
         this.classNumber = classNumber;
         this.city = city;
     }
+
+
 }
