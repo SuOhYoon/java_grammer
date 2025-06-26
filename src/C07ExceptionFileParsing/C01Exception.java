@@ -2,6 +2,8 @@ package C07ExceptionFileParsing;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.security.InvalidParameterException;
 import java.sql.SQLException;
 import java.util.NoSuchElementException;
@@ -87,5 +89,10 @@ public class C01Exception {
 
             throw new SQLException("비밀번호를 잘못입력하셨습니다.");
         }
+    }
+
+    static String fileRead(String path){
+        Path filePath = Paths.get(path);
+        
     }
 }
