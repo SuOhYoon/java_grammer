@@ -52,5 +52,13 @@ class Student {
         return city;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", classNumber='" + classNumber + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }
