@@ -50,7 +50,7 @@ public class C03JsonParsing {
 
 //        json 직렬화 : 객체 -> json 변환. writeValueAsString(객체)
         String returnSt = o1.writeValueAsString(studentList);
-        
+        System.out.println(returnSt);
     }
 }
 
