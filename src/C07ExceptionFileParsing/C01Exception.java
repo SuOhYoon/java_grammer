@@ -2,6 +2,7 @@ package C07ExceptionFileParsing;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.InvalidParameterException;
@@ -96,7 +97,7 @@ public class C01Exception {
 
     static String fileRead(String path){
         Path filePath = Paths.get(path);
-        String text 
+        String text = Files.readString()
         return filePath.toString();
     }
 }
