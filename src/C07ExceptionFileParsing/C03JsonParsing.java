@@ -33,7 +33,7 @@ public class C03JsonParsing {
         JsonNode jsonNodes = o1.readTree(st1);
         Map<String, String>myMap2 = new HashMap<>();
         myMap2.put("id", jsonNodes.get("id").asText());
-        myMap2.put("name", jsonNodes.get("id").asText());
+        myMap2.put("name", jsonNodes.get("name").asText());
         myMap2.put("id", jsonNodes.get("id").asText());
         myMap2.put("id", jsonNodes.get("id").asText());
 
