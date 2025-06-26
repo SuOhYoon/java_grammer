@@ -24,15 +24,15 @@ public class C02File {
             line = br2.readLine();
         }
 
-//        파일에서 일기 : NIO패키지
-        Path filePath = Paths.get("src/C07ExceptionFileParsing/test.txt");
-//        readString : 문자열전체를 통째로 read
-        String st1 = Files.readString(filePath);
-        System.out.println(st1);
-//        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
-        List<String> st2 = Files.readAllLines(filePath);
-        for(String l : st2){
-            System.out.println(l);
-        }
+////        파일에서 일기 : NIO패키지
+//        Path filePath = Paths.get("src/C07ExceptionFileParsing/test.txt");
+////        readString : 문자열전체를 통째로 read
+//        String st1 = Files.readString(filePath);
+//        System.out.println(st1);
+////        readAllLines : 문자열을 라인별로 split하여 list형태로 저장
+//        List<String> st2 = Files.readAllLines(filePath);
+//        for(String l : st2){
+//            System.out.println(l);
+//        }
     }
 }
