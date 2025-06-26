@@ -13,7 +13,7 @@ public class C02File {
         System.out.println(input);
 
 //        파일에서 읽기
-        BufferedReader br2 = new BufferedReader(new FileReader(System.in));
+        BufferedReader br2 = new BufferedReader(new FileReader("src/C07ExceptionFileParsing/test.txt"));
 
     }
 }
