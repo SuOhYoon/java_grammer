@@ -1,8 +1,4 @@
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.NoSuchElempackage C07ExceptionFileParsing;
+package C07ExceptionFileParsing;
 
 import java.io.IOException;
 import java.nio.file.Files;
