@@ -17,25 +17,25 @@ public class C03JsonParsing {
 //        ObjectMapper : json 직렬화 역직렬화를 위한 라이브러리
         ObjectMapper o1 = new ObjectMapper();
 //        사용법1. 객체생성  : 클래스명 객체명 = o1.readValue(문자열, 클래스명);
-        Path filePath = Paths.get("src/C07ExceptionFileParsing/myjson1.json");
-        String st1 = Files.readString(filePath);
-        Map<String, String> myMap = o1.readValue(st1, Map.class);
-        System.out.println(myMap.get("name"));
-        System.out.println(myMap);
-
-        Student s1 = o1.readValue(st1, Student.class);
-        System.out.println(s1);
-
-
-//        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
-//        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
-        JsonNode jsonNodes = o1.readTree(st1);
-        Map<String, String> myMap2 = new HashMap<>();
-        myMap2.put("id", jsonNodes.get("id").asText());
-        myMap2.put("name", jsonNodes.get("name").asText());
-        myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
-        myMap2.put("city", jsonNodes.get("city").asText());
-        System.out.println(myMap2);
+//        Path filePath = Paths.get("src/C07ExceptionFileParsing/myjson1.json");
+//        String st1 = Files.readString(filePath);
+//        Map<String, String> myMap = o1.readValue(st1, Map.class);
+//        System.out.println(myMap.get("name"));
+//        System.out.println(myMap);
+//
+//        Student s1 = o1.readValue(st1, Student.class);
+//        System.out.println(s1);
+//
+//
+////        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
+////        복잡한 json자료구조일 경우에 트리구조의 JsonNode 사용
+//        JsonNode jsonNodes = o1.readTree(st1);
+//        Map<String, String> myMap2 = new HashMap<>();
+//        myMap2.put("id", jsonNodes.get("id").asText());
+//        myMap2.put("name", jsonNodes.get("name").asText());
+//        myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
+//        myMap2.put("city", jsonNodes.get("city").asText());
+//        System.out.println(myMap2);
 
 //        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
         Path filePath2 = Paths.get("src/C07ExceptionFileParsing/myjson2.json");
