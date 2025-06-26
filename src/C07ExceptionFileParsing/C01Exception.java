@@ -47,7 +47,7 @@ public class C01Exception {
 //        login(input);
 
 //        checked exception 은 예외처리를 위임받게 되면, 반드시 예외처리를 하거나, 다시 throws 해야함.
-        
+
 //        넘겨 받아서 처리하는 경우
         try {
             login2(input);
@@ -90,5 +90,10 @@ public class C01Exception {
 
             throw new SQLException("비밀번호를 잘못입력하셨습니다.");
         }
+    }
+
+    static String fileRead(String path){
+        Path filePath = Paths.get(path);
+
     }
 }
