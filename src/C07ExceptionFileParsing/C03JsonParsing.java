@@ -32,7 +32,7 @@ class Student {
     public student() {
     }
 
-    public void student(int id, String name, String classNumber, String city) {
+    public student(int id, String name, String classNumber, String city) {
         this.id = id;
         this.name = name;
         this.classNumber = classNumber;
