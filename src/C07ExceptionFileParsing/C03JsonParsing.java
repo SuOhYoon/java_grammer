@@ -38,7 +38,7 @@ public class C03JsonParsing {
         myMap2.put("city", jsonNodes.get("city").asText());
         System.out.println(myMap2);
 
-//
+//        실습 : myJson2를 가지고 List<Student> 객체 형식으로 변환
 
     }
 }
