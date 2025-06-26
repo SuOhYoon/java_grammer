@@ -43,8 +43,8 @@ public class C03JsonParsing {
         JsonNode jsonNodes2 = o1.readTree(st2);
         Map<String, String> mymap3 = new HashMap<>();
         myMap3.put("id", jsonNodes.get("id").asText());
-        myMap2.put("name", jsonNodes.get("name").asText());
-        myMap2.put("classNumber", jsonNodes.get("classNumber").asText());
+        myMap3.put("name", jsonNodes.get("name").asText());
+        myMap3put("classNumber", jsonNodes.get("classNumber").asText());
         myMap2.put("city", jsonNodes.get("city").asText());
 
         List<Student> students = new ArrayList<>();
