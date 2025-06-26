@@ -33,9 +33,7 @@ public class C03JsonParsing {
         JsonNode jsonNodes = o1.readTree(st1);
         Map<String, String>myMap2 = new HashMap<>();
         for (JsonNode j : jsonNodes){
-            for(JsonNode j1 : j){
-                myMap2.put("id", )
-            }
+            
         }
 
     }
