@@ -99,7 +99,7 @@ public class C01Exception {
     static String fileRead(String path){
         Path filePath = Paths.get(path);
 //        checked Exception의 경우 예외처리가 강제
-//        방법1. checked를 try catch
+//        방법1. checked를 try catch한 이후에 unchecked예외를 다시 throw
         try {
             String text = Files.readString(filePath);
         } catch (IOException e)
