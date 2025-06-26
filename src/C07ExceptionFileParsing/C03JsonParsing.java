@@ -23,8 +23,8 @@ public class C03JsonParsing {
         Student s1 = o1.readValue(st1, Student.class);
         System.out.println(s1);
 
-        Path filePath = Paths.get("src/C07ExceptionFileParsing/myjson1.json");
-        String st1 = Files.readString(filePath);
+        Path filePath2 = Paths.get("src/C07ExceptionFileParsing/myjson2.json");
+        String st2 = Files.readString(filePath);
         List<Student> studentList = o1.readValue(st2, Map.class);
 //        사용법2. 트리구조의 JsonNode로 변환 : JsonNode 객체명 = o1.readTree(문자열)
 
