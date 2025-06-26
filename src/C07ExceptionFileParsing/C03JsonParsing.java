@@ -45,7 +45,7 @@ public class C03JsonParsing {
         for(JsonNode j : jsonNodes2){
             System.out.println(j);
             Student s1 = new Student(j.get("id").asText(), j.get("name"));
-            
+            studentList.add(s1);
         }
 
 //        JsonNode jsonNodes2 = o1.readTree(st2);
