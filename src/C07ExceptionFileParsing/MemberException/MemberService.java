@@ -4,4 +4,8 @@ public class MemberService {
     public void register(String name, String email, String password){
 
     }
+
+    public Member findById(){
+        
+    }
 }
