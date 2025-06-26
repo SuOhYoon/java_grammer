@@ -38,7 +38,7 @@ public class C03JsonParsing {
         myMap2.put("city", jsonNodes.get("city").asText());
         System.out.println(myMap2);
 
-
+//
 
     }
 }
