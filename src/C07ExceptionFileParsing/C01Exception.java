@@ -105,6 +105,7 @@ public class C01Exception {
         } catch (IOException e)
         {
 //            System.out.println("입출력 과정에서 예외가 발생했습니다.");
+//            보통은 코드중지목적으로 unchecked exception으로 다시 throw.
             throw new RuntimeException(e);
         }
         return filePath.toString();
