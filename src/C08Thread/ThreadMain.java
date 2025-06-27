@@ -29,7 +29,8 @@ public class ThreadMain {
 
 //        멀티스레드 동시성 이슈 테스트
         for(int i=0;i<1000;i++){
-            Thread t1 = new Thread()
+            Thread t1 = new Thread(()-> Library.borrow());
+            t1.start();
         }
     }
 }
