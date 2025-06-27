@@ -32,6 +32,6 @@ public class ThreadMain {
             Thread t1 = new Thread(()-> Library.borrow());
             t1.start();
         }
-        System.out.println();
+        System.out.println(Library.getBookCount());
     }
 }
