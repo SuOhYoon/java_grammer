@@ -17,5 +17,7 @@ public class C04HttpJsonParsing {
                 .GET()
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+        String postString = response.body();
+        System.out.println(postString);
     }
 }
