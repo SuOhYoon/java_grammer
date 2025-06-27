@@ -1,10 +1,14 @@
 package C07ExceptionFileParsing;
 
+import com.fasterxml.jackson.databind.JsonNode;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.ArrayList;
+import java.util.List;
 
 public class C04HttpJsonParsing {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -19,6 +23,14 @@ public class C04HttpJsonParsing {
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         String postString = response.body();
         System.out.println(postString);
+
+        JsonNode jsonNodes2 = o1.readTree(st2);
+        List<Student> studentList = new ArrayList<>();
+        for(JsonNode j : jsonNodes2){
+            Student s1 = o1.readValue(j.toString(), Student.class);
+            studentList.add(s1);
+        }
+        System.out.println(studentList);
     }
 }
 
