@@ -10,6 +10,9 @@ public class ThreadMain {
 
 //        멀티스레드 생성
 //        방법1. 스레드 클래스 상속방식
-        
+        Thread t1 = new MyThread();
+        Thread t1 = new MyThread();
+        Thread t1 = new MyThread();
+        Thread t1 = new MyThread();
     }
 }
