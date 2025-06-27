@@ -27,12 +27,12 @@ public class C04HttpJsonParsing {
 
         ObjectMapper o1 = new ObjectMapper();
         JsonNode jsonNodes2 = o1.readTree(postString);
-        List<Student> studentList = new ArrayList<>();
+        List<Post> posts = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
             Student s1 = o1.readValue(j.toString(), Student.class);
-            studentList.add(s1);
+            posts.add(s1);
         }
-        System.out.println(studentList);
+        System.out.println(posts);
     }
 }
 
