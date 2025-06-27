@@ -19,5 +19,6 @@ public class ThreadMain {
         t2.start();
         t3.start();
         t4.start();
+//        방법2. Runnalbe을 직접 구현한 객체를 Thread
     }
 }
