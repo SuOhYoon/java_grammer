@@ -40,6 +40,8 @@ class Post{
     public Post() {
 
     }
+
+    
     long userId;
     long id;
     String title;
