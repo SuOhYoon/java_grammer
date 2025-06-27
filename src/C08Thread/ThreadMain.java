@@ -26,6 +26,6 @@ public class ThreadMain {
             public void run() {
 
             }
-        });
+        })
     }
 }
