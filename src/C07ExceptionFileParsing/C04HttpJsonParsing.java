@@ -26,5 +26,5 @@ class Post{
     long userId;
     long id;
     String id;
-    
+    String body;
 }
