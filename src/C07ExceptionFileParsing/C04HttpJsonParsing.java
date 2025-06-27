@@ -1,6 +1,7 @@
 package C07ExceptionFileParsing;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.net.URI;
@@ -24,6 +25,7 @@ public class C04HttpJsonParsing {
         String postString = response.body();
         System.out.println(postString);
 
+        ObjectMapper o1 = new ObjectMapper();
         JsonNode jsonNodes2 = o1.readTree(st2);
         List<Student> studentList = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
