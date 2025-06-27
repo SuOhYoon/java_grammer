@@ -22,4 +22,6 @@ public class C04HttpJsonParsing {
     }
 }
 
-class Post
+class Post{
+    
+}
