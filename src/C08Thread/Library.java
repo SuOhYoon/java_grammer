@@ -5,6 +5,9 @@ public class Library {
 
     public static void borrow(){
         if(bookCount>0){
+            bookCount-=1;
+            System.out.println("대출완료");
+        } else {
             
         }
     }
