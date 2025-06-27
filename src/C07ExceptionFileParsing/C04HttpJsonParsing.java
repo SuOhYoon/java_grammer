@@ -26,7 +26,7 @@ public class C04HttpJsonParsing {
         System.out.println(postString);
 
         ObjectMapper o1 = new ObjectMapper();
-        JsonNode jsonNodes2 = o1.readTree(st2);
+        JsonNode jsonNodes2 = o1.readTree(postString);
         List<Student> studentList = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
             Student s1 = o1.readValue(j.toString(), Student.class);
