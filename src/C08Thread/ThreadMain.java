@@ -22,6 +22,7 @@ public class ThreadMain {
 //        System.out.println("hello world");
 //        방법2. Runnalbe을 직접 구현한 객체를 Thread클래스 생성자에 주입하는 방식
         new Thread(() -> System.out.println("t스레드 실행시작(MyThread")).start();
-        
+        new Thread(() -> System.out.println("t스레드 실행시작(MyThread")).start();
+
     }
 }
