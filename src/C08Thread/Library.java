@@ -7,7 +7,9 @@ public class Library {
         if(bookCount>0){
             try{
 
-            } catch(InterruptedException
+            } catch(InterruptedException e){
+                
+            }
             bookCount-=1;
             System.out.println("대출완료");
         } else {
