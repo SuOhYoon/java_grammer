@@ -27,6 +27,9 @@ public class ThreadMain {
         new Thread(() -> System.out.println("스레드 실행시작(MyThread)4")).start();
         System.out.println("hello world");
 
-//        멅
+//        멀티스레드 동시성 이슈 테스트
+        for(int i=0;i<1000;i++){
+            Thread t1 = new Thread()
+        }
     }
 }
