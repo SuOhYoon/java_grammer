@@ -16,8 +16,8 @@ public class ThreadMain {
         Thread t4 = new MyThread();
 //        Thread클래스안에 start메서드 내장되어있고, start메서드는 run메서드 호출하면서 스레드 생성.
         t1.start();
-        t1.start();
-        t1.start();
-        t1.start();2
+        t2.start();
+        t3.start();
+        t4.start();
     }
 }
