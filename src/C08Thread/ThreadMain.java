@@ -8,6 +8,8 @@ public class ThreadMain {
 //        }
 //        System.out.println(Library.getBookCount());
 
+//        멀티스레드 생성
+//        방법1. 스레드 클래스 상속방식
         
     }
 }
