@@ -26,5 +26,7 @@ public class ThreadMain {
         new Thread(() -> System.out.println("스레드 실행시작(MyThread)3")).start();
         new Thread(() -> System.out.println("스레드 실행시작(MyThread)4")).start();
         System.out.println("hello world");
+
+//        멅
     }
 }
