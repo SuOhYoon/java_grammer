@@ -37,8 +37,8 @@ public class C04HttpJsonParsing {
 }
 
 class Post{
-    public Post{
-        
+    public Post() {
+
     }
     long userId;
     long id;
