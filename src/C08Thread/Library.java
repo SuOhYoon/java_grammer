@@ -14,7 +14,7 @@ public class Library {
             bookCount-=1;
             System.out.println("대출완료");
         } else {
-            System.out.println("대출불ㄴ");
+            System.out.println("대출불가");
         }
     }
 
