@@ -7,5 +7,7 @@ public class Library {
 
     }
 
-
+    public static int getBookCount() {
+        return bookCount;
+    }
 }
