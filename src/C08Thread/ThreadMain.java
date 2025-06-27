@@ -31,6 +31,7 @@ public class ThreadMain {
         for(int i=0;i<1000;i++){
             Thread t1 = new Thread(()-> Library.borrow());
             t1.start();
+            t1.join(); // 한 스레드의 작업이 모두 완료될때, 다른 스레드 생성하여 작업 수행. -> 사실상 단일스레드처럼 동작되므로, 성능저하 발생
         }
         Thread.sleep(20000);
         System.out.println(Library.getBookCount()); // main 스레드가 실행
