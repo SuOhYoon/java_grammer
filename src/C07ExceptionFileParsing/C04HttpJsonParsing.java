@@ -25,6 +25,6 @@ public class C04HttpJsonParsing {
 class Post{
     long userId;
     long id;
-    String id;
+    String title;
     String body;
 }
