@@ -3,7 +3,7 @@ package C08Thread;
 public class Library {
     private static int bookCount = 100;
 
-    public static void borrow(){
+    public synchronized static void borrow(){
         if(bookCount>0){
             try {
                 Thread.sleep(300);
