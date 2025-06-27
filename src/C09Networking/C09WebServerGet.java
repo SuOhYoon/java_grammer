@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class C09WebServerGet {
     public static void main(String[] args) throws IOException {
-        //        소켓이란 서버와 사용자가 통신을 하기 위한 네트워크 통신의 끝점을 나타내는 개념
+//        소켓이란 서버와 사용자가 통신을 하기 위한 네트워크 통신의 끝점을 나타내는 개념
         ServerSocket serverSocket = new ServerSocket(8080);
         System.out.println("서버 시작");
         while (true) {
