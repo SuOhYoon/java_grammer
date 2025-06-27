@@ -5,7 +5,11 @@ public class Library {
 
     public static void borrow(){
         if(bookCount>0){
-            Thread.sleep(10);
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             bookCount-=1;
             System.out.println("대출완료");
         } else {
