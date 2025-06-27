@@ -29,7 +29,7 @@ public class C04HttpJsonParsing {
         JsonNode jsonNodes2 = o1.readTree(postString);
         List<Post> posts = new ArrayList<>();
         for(JsonNode j : jsonNodes2){
-            Post p = o1.readValue(j.toString(), Student.class);
+            Post p = o1.readValue(j.toString(), Post.class);
             posts.add(s1);
         }
         System.out.println(posts);
