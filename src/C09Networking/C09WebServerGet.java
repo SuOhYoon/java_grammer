@@ -20,7 +20,5 @@ public class C09WebServerGet {
 //            플러시란 일반적으로 변경사항을 확정하는 것을 의미
             socket.getOutputStream().flush();
             socket.close();
-            접기
-
         }
 }
