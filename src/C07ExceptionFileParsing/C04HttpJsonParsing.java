@@ -42,5 +42,19 @@ class Post{
     String title;
     String body;
 
+    public long getUserId() {
+        return userId;
+    }
 
+    public long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getBody() {
+        return body;
+    }
 }
