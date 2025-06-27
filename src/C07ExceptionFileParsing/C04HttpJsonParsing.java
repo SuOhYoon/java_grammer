@@ -21,3 +21,5 @@ public class C04HttpJsonParsing {
         System.out.println(postString);
     }
 }
+
+class Post
