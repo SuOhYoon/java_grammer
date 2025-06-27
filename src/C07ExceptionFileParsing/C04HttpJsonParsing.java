@@ -23,7 +23,7 @@ public class C04HttpJsonParsing {
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         String postString = response.body();
-        System.out.println(postString);
+//        System.out.println(postString);
 
         ObjectMapper o1 = new ObjectMapper();
         JsonNode jsonNodes2 = o1.readTree(postString);
