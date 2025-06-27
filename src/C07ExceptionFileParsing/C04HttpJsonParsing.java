@@ -41,7 +41,13 @@ class Post{
 
     }
 
-    
+    public Post(long userId, long id, String title, String body) {
+        this.userId = userId;
+        this.id = id;
+        this.title = title;
+        this.body = body;
+    }
+
     long userId;
     long id;
     String title;
