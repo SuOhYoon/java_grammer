@@ -6,6 +6,6 @@ public class ThreadMain {
         for(int i=0;i<1000;i++){
             Library.borrow();
         }
-        System.out.println();
+        System.out.println(Library.getBookCount());
     }
 }
